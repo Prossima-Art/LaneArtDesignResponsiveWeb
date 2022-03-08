@@ -1,0 +1,68 @@
+
+
+
+
+.banner{
+	position: relative;
+	display: flex; 
+	flex-direction: flex-end;
+
+	
+	width: 100%;
+  height: auto;
+  object-fit: fill;
+
+}
+
+ 
+
+
+.TumbProjects{
+	padding: 5px;
+	margin: 0px;
+	max-width: 100%;
+  height: auto;
+  object-fit: fill;
+
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	border: none;
+
+	}
+
+	
+}
+
+img.Tumbprojects{
+	height: 290px;
+	width: auto;
+}
+
+
+
+.rewards{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.12));
+
+}
+
+.teste{
+	text-align-last: left;
+}
+
+.vl {
+  border-left: 2px solid #B1B4C4;
+  border-radius: 2px;
+	height: 80px;
+}

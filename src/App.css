@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&display=swap);
+
+*{
+  font-family: 'Inter', sans-serif;
+	
+}
+body{
+	overflow-x:hidden;
+}
+
+/* PORQUE CARAJO AFETA AO CONTAINER DO CAROUSELCELULAR? */
+.carossel{
+	background: gray;
+	/* height: 573px; */
+  align-items: center;
+	width: 100%;
+}
+
+a:-webkit-any-link {
+	text-decoration: none !important;	
+}
+
+
+
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 295px;
+  height:  auto;
+
+  background: #F6F6F6;
+  border-radius: 20px; 
+  margin: 50px; /* separção entre cards */
+}
+
+
+.imgcard{
+    width: 140px;
+    height: 119px;
+    margin-top: -50px;
+    align-items: center;
+    padding: 16px;
+}
+
+.p-title{
+  border-bottom: 2px solid #D500F9;
+  font-weight: bold;
+  font-size: 100%;
+	line-height: 200%;
+  
+}
+
+.p-subtitle{
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 100%;
+}
+
+.opacity-1{
+	opacity: 0.35;
+	
+}
+
+
+
+.textbold{
+   	padding-bottom: 10px;   
+    font-weight: bold;
+    font-size: 180%;
+    line-height: 100%;
+}
+
+
+
+#textdecoration{
+  color: #D500F9 !important;
+}
+
+
+.center{
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  aling-itens: center;
+	margin-top: 0%;
+	
+}
+
+
+.centralized{
+	justify-content: center;
+	text-align: center;
+}

@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
+
+
+*{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;	
+	
+}
+
+
+
+
+.LogoHeader{
+	height: 50px;
+	width: 100px;
+
+}
+
+
+.ModeBtn{
+	width: 24px;
+	height: 24px;	
+}
+
+.BtnTheme{
+  position:relative;
+  border:none;
+	background-color: rgba(59, 59, 59, 0) !important;
+}
+.navbar{
+	bachground:transparent !important;
+}

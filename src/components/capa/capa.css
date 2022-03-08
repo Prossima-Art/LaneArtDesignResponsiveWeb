@@ -1,0 +1,55 @@
+
+
+
+
+.textIcon{
+	padding: 0px !important;
+	margin: 0px;
+	align-content: center;
+	display: flex;
+  align-items: center;
+	
+	
+	font-weight: normal;
+	font-size: 85%;
+	line-height: auto;
+	max-width: 80%;
+	align-items: left;
+
+}  
+
+
+
+.h1-md{
+	font-weight: bold;
+	font-size: 5vw !important;
+	letter-spacing: -0.03em !important;
+	white-space: nowrap;
+}
+
+
+
+.Carousel{
+	padding: 0px;
+}
+
+.CarouselImg{
+	margin:0px;
+	padding: 0px;
+	
+	width: 100%;
+  height: auto;
+  object-fit: fill;
+	border:none
+	/* border: 3px solid #DA1F50; */
+}
+
+
+.capasize{
+	display: absolute;
+	padding: 0px;
+	margin: 0px;
+	height: 80vh;
+	width: 80vw;
+
+}
