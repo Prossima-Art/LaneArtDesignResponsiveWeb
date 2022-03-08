@@ -90,9 +90,9 @@ export default function NavBar () {
 							style={{ maxHeight: '100px' }}
 							navbarScroll
 						>
-							<Nav.Link> <Link to="/">Inicio </Link> </Nav.Link>
-							<Nav.Link> <Link to="/Preco">Preço </Link> </Nav.Link>
-							<Nav.Link> <Link to="/Portfolio">{t('nav_bar_link')} </Link> </Nav.Link>					
+							<Nav.Link> <Link to="/">{t('nav_bar_Home')} </Link> </Nav.Link>
+							<Nav.Link> <Link to="/Preco">{t('nav_bar_Price')} </Link> </Nav.Link>
+							<Nav.Link> <Link to="/Portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>					
 						</Nav>
 
 
@@ -115,7 +115,7 @@ export default function NavBar () {
                 <li key={country_code}>
                   <a href="#"
                     className={classNames('dropdown-item', {
-                      enabled: currentLanguageCode === code,
+                      desabled: currentLanguageCode === code,
                     })}
                     onClick={() => {
                       i18next.changeLanguage(code)
@@ -138,7 +138,7 @@ export default function NavBar () {
 						
 		
 						<BtnTheme />
-						<Button className="BtnPrimary">Contato</Button>
+						<Button className="BtnPrimary">{t('btn.btn_Contact')}</Button>
 					</Navbar.Collapse>
 
 				

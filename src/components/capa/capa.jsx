@@ -14,31 +14,34 @@ import {InfoTitulo, InfoSubTitulo} from '../../texts/InfoHome';
 import CarouNuka from './carousel-capa.jsx';
 import { motion } from "framer-motion";
 
+import { useTranslation } from 'react-i18next';
+
 
 
  export default function Capa() {
-	
-	
+	 const {t}= useTranslation();
 
-
-	 
+	
    return (
  		<>
  			<Container fluid >
  	  <Row>
  	    <Col className="center grid" xs={{xs:6, order: 2 }} sm={{sm:6, order: 2 }} md={{md:3, order: 2 }} lg={{lg:3, order: 1 }}>
- 				<InfoTitulo className="cols-auto" ></InfoTitulo>	
-  				<InfoSubTitulo className="cols-auto"></InfoSubTitulo>
+ 				<h1 className="cols-auto h1-md" >{t('Info.capaTitle')}</h1>
+				<h1 className="cols-auto h1-md" >{t('Info.capaTitlebr')}</h1>
+				<h1 className="cols-auto h1-md" id= "textdecoration" >{t('Info.capaTitledecoration')}</h1>	
+  				
+				<p className="cols-auto">{t('Info.capasubtitle')}</p>
  					
 				<Row>
  	 					<Col xs="auto">
- 	 						<Button className="BtnPrimary ml-btn">Preços</Button>
+ 	 						<Button className="BtnPrimary ml-btn">{t('btn.btn_Contact')}</Button>
  	 					</Col>						
  	 					<Col xs="auto">
  	 						<div>
  	 							<a href="#" className="row row-cols-auto">
  	 								<img className="IconPlay" src= {IconPlay} alt="Icon"/>
- 	 								<motion.p initial={{x:100}} animate={{ x:0 }} transition={{duration: 1, delay: 1}} className="textIcon">Acompanhe<br></br>nossos projetos </motion.p>
+ 	 								<motion.p initial={{x:100}} animate={{ x:0 }} transition={{duration: 1, delay: 1}} className="textIcon">{t('text.textPlayIcon')}<br></br>{t('text.textPlayIcon2')}</motion.p>
  	 							</a>
  	 						</div>
  	 					</Col>
@@ -53,4 +56,3 @@ import { motion } from "framer-motion";
  	</>		
    );
  }
-

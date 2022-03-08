@@ -6,7 +6,11 @@ import {Carosseltitulo2} from '../texts/InfoHome';
 import {CarosselSubTitulo2} from '../texts/InfoHome';
 import '../Styles/ButtonStyle.css';
 
+import { useTranslation } from 'react-i18next';
+
 export const AnimatedGrid2 = () => {
+	const {t}= useTranslation();
+
 	return (
 		<> 
 			
@@ -16,9 +20,9 @@ export const AnimatedGrid2 = () => {
               <Carosseltitulo2></Carosseltitulo2>
               <CarosselSubTitulo2></CarosselSubTitulo2>
 							<Row>
-								<Col sm={2} md={2} lg={3}><button className="BtnPrimary">Orçamento</button>
+								<Col xs={2} md={4} lg={2}><button className="BtnPrimary">{t('btn.btn_Orcamento')}</button>
                 </Col>
-								<Col sm={2} md={2} lg={3}><button className="BtnSecundary">Ver mais</button>
+								<Col xs={2} md={4} lg={2}><button className="BtnSecundary">{t('btn.btn_seemore')}</button>
                 </Col>
 							</Row>
             </Col>

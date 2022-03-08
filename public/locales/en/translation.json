@@ -1,0 +1,31 @@
+{
+    "app_title": "lane Art Design",
+    "language": "Languages",
+    "nav_bar_Home": "Home",
+    "nav_bar_Price": "Prices",
+    "nav_bar_Portfolio": "Portfolio",
+
+    "btn":{
+        "btn_Contact": "Contact",
+        "btn_Price": "Prices",
+        "btn_Orcamento": "Budget",
+        "btn_seemore": "See more"
+    },
+
+    "Info":{
+        "capaTitle": "Creation and",
+        "capaTitlebr": "Design of",
+        "capaTitledecoration": "Apps",
+        
+        "capasubtitle":"<p className=\"p-subtitle\">Mostre a melhor <br><\/br> vitrine para sua <br><\/br><span id= \"textdecoration\">empresa!<\/span><\/p>"
+
+    },
+
+    "text":{
+        "textPlayIcon": "Track our",
+        "textPlayIcon2": " orders"
+    }
+
+
+    }
+  

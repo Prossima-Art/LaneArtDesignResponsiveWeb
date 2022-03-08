@@ -5,7 +5,7 @@ import React from 'react';
 export function InfoTitulo() {
   return (
         <>
-    <h1 className="h1-md"> Desenvolvimento e <br></br>Design de <br></br><span id= "textdecoration">Apps</span></h1>    
+    <h1 className="h1-md"> Desenvolvimento e <br></br>Design de <br></br><span id= "textdecoration">Apps</span></h1>
     </>
   );
 }
