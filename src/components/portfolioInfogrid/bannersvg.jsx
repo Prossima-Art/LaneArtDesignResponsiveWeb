@@ -1,10 +1,5 @@
 import React from 'react';
 
-import Figmaimg from './imgPortfolio/figma.png';
-import Nodeimg from './imgPortfolio/node.png';
-import Reactimg from './imgPortfolio/react.png';
-import SassImg from './imgPortfolio/sass.png';
-import TypescriptImg from './imgPortfolio/typescript.png';
 
 export const BannerSvg = () => {
 	return ( 

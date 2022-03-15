@@ -22,12 +22,14 @@
     "js-cookie": "^3.0.1",
     "nuka-carousel": "^4.8.4",
     "react": "^17.0.2",
+    "react-animated-cursor": "^2.2.0",
     "react-bootstrap": "^2.2.0",
     "react-dom": "^17.0.2",
     "react-flag-icon-css": "^1.0.25",
     "react-i18next": "^11.15.6",
     "react-router-dom": "^6.2.2",
     "styled-components": "^5.3.3",
-    "vite": "^2.8.6"
+    "vite": "^2.8.6",
+    "yarn": "^1.22.17"
   }
 }

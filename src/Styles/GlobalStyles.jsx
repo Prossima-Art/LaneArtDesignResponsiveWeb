@@ -7,6 +7,7 @@ body{
   transition:0.5s;
 	color: black !important;
 	margin-left: 2em;
+	margin-right: 2em;
 
 	.LogoHeader path{
 		fill: #000 !important;

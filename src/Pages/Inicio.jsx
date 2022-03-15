@@ -9,7 +9,7 @@ import Grid from '../components/grid.jsx';
 import {AnimatedGrid} from '../components/animatedGrid';
 import {AnimatedGrid2} from '../components/animatedGrid2';
 import {Contactsection} from '../components/contactsection';
-import {Avaliation} from '../texts/InfoHome'
+
 import {SNcards} from '../components/SNcards/SNcards';
 import Footer from '../components/footer/footer';
 
@@ -22,13 +22,11 @@ function Inicio() {
 		<>
 			<NavBar/>
 			<GlobalStyle/>
-			
 			<Capa/>
 			<AnimatedGrid/>
 			<AnimatedGrid2/>
-	    <Grid/>    
+	    	<Grid/>    
 			<Contactsection/>
-			<Avaliation></Avaliation>
 			<SNcards />
 			<Footer />
   

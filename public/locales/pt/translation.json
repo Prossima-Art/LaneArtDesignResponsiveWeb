@@ -4,24 +4,109 @@
     "nav_bar_Home": "Inicio",
     "nav_bar_Price": "Preços",
     "nav_bar_Portfolio": "Portfolio",
+    "samllText": "!",
+
     "btn": {
         "btn_Contact": "Contato",
         "btn_Price": "Preços",
         "btn_Orcamento": "Orçamento",
         "btn_seemore": "Ver mais"
     },
+
     "Info": {
         "capaTitle": "Desenvolvimento e",
         "capaTitlebr": "Design de",
-        "capaTitledecoration": "Apps",
-        "capasubtitle": "<p className=\"p-subtitle\">Mostre a melhor <br><\/br> vitrine para sua <br><\/br><span id= \"textdecoration\">empresa!<\/span><\/p>"
-    },
+        "capaTitleDecoration": "Apps",
+        
+        "capasubtitle": "Mostre a melhor",
+        "capasubtitle2": "vitrine para sua",
+        "capasubtitle3": "empresa"
+        
+},
+    
     "text": {
         "textPlayIcon": "Acompanhe",
-        "textPlayIcon2": "nossos produtos"
+        "textPlayIcon2": "nossos Projetos"
     },
-    "alanne":[
-        "Desenvolvimento e",
-        "Design de"
-      ]
+
+    "carousel": {
+        "title1": "Designs",
+        "title1-2":"customizados",
+        "subtitle1": "Nosso time possui uma experencia acreditada no desenvolvimento de apps com a melhor interfase de usuário (UI) e a mais fácil navegação (UX)",
+        "title2":"Design web",
+        "title2-2":"moderno",
+        "title2-3":"para sua empresa!",
+        "subtitle2":"Nosso time é experto em React, Flutter e Javascript, que são as ferramentas através das quais podemos modernizar seu web site."
+    },
+    "payments":{
+        "h1":"Oferecemos",
+        "h1-2":"flexibilidade",
+        "h1-3":", além de",
+        "h1-4":"varias formas de",
+        "h1-5":"pagamento!",
+        "title1":"Prazo de entrega",
+        "title2":"Melhores descontos",
+        "title3":"12x sem juros",
+        "title4":"Quer algum desconto?",
+        "subtitle1":"Os melhores prazos para você que não quer esperar tanto pelo seu produto",
+        "subtitle2":"Aceitamos pagamentos em cripto",
+        "subtitle3":"Parcele suas compras em todos seus cartões",
+        "subtitle4":"5% OFF, nas compras à vista ou no débito"
+    },
+
+    "contact":{
+        "title":"Digitalize e",
+        "title1-2":"modernize",
+        "title1-3":"sua empresa!",
+        "subtitle":"Consulte-nos sem compromisso",
+
+        "contacttitle": "Contacte-nos!",
+        "contactsubtitle": "Estamos abertos a discutir seu projeto, melhorar a presença de sua empresa ou lhe ajudar a desenvolver suas ideias"
+    },
+
+    "avaliations":{
+        "title":"Veja as",
+        "title1-2":"avaliações",
+        "title1-3":"de nossos clientes!"
+    },
+
+    "footer":{
+        "title": "© Todos os direitos reservados, 2022."
+    },
+
+    "portfolio":{
+        "title": "Olá, somos",
+        "title1-2": "Lane Art Design",
+        "subtitle": "Somos expertos em design e desemvolvimento web e de apps. Usamos todas as ferramentas modernas para modernizar e dar forma a suas ideias."
+    },
+
+    "Rewards":{
+        "title":"15 Nacional",
+        "title2":"1500+ Felices",
+        "title3":"2700+ Adoram",
+        "subtitle": "Prêmios",
+        "subtitle2": "Clientes",
+        "subtitle3": "Feedbacks"
+
+    },
+
+    "pricesection":{
+        "title":"Nossos pacotes de serviços",
+        "subtitle":"Qual é o problema da sua empresa? Ela apenas precisa rejuvenecer sua face sem alterar o código? Ou ela pode continuar com sua face e apenas alterar seu código? Será que ela precisa mudar tudo?"
+    },
+
+    "packages":{
+        "Desing":"Pacote Design",
+        "Dev":"Pacote Dev",
+        "Expert":"Pacote Expert",
+        "item1":"Design System",
+        "item2":"Ilustrações",
+        "item3":"Animações",
+        "item4":"Dev Front-End",
+        "item5":"Dev Back-End",
+        "item6":"Base de Dados"
+    }
+
+    
+
 }

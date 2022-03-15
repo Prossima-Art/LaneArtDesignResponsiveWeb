@@ -8,9 +8,6 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next';
 import 'bootstrap/dist/js/bootstrap.js';
 
-
-
-
 i18n
   // Ativa o i18n backend;
   .use(HttpApi)

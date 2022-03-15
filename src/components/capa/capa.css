@@ -25,7 +25,15 @@
 	font-size: 5vw !important;
 	letter-spacing: -0.03em !important;
 	white-space: nowrap;
+	
 }
+
+
+@media only screen and (max-width: 600px) {
+	.h1-md {
+		font-size: 200% !important;
+	}
+  }
 
 
 

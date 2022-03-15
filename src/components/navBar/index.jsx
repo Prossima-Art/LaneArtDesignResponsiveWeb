@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button';
 import {Navbar,Nav,Container,NavDropdown} from 'react-bootstrap';
 
 //____
-import ReactDOM from 'react-dom';
+
 import {Link} from 'react-router-dom';
-import App from '../../App.jsx';
+
 
 // import Styles
 import {GlobalStyle} from '../../Styles/GlobalStyles';
@@ -15,7 +15,7 @@ import './style.css';
 import '../../Styles/ButtonStyle.css';
 
 // import Logo
-import {Logo} from '../../texts/logoHeader.jsx';
+import {Logo} from '../../Styles/logoHeader';
 
 ///imports for translate
 

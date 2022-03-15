@@ -1,26 +1,24 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { useTranslation } from 'react-i18next';
 import {Container,Row,Col} from 'react-bootstrap';
 import {BannerSvg} from './bannersvg.jsx'
 import './portfolio.css'
 
 
 
-///Import text
-
-import {InfoTituloPortifolio, InfoSubTituloPortifolio} from '../../texts/InfoPortfolio.jsx';
-
 export default function Portfolioinfogrid() {
+
+	const {t}= useTranslation();
   return (
 		<>
-				  <Container className="ml-0 mt-5">
-						  <Row className="ml-0">
-								<Col className="ml-0" md={12} lg={6}>
-								<InfoTituloPortifolio></InfoTituloPortifolio>
-								<InfoSubTituloPortifolio></InfoSubTituloPortifolio> </Col>
-								
-								<Col className="banner mt-5 mr-0" md={12} lg={6}><BannerSvg></BannerSvg></Col>
+				  <Container fluid className="mr-0 mt-5">
+						  <Row className="mr-0">
+								<Col className="mr-0 " xs={12} md={6}>
+								<h1 className="h1-md "> {t('portfolio.title')} <span id= "textdecoration">{t('portfolio.title1-2')}</span></h1>
+								<p className="p-subtitle sizebox ">{t('portfolio.subtitle')}</p>
+								</Col>
+								<Col className="banner mt-1 mr-0" xs={12} md={6}><BannerSvg ></BannerSvg></Col>
 						  </Row>
 
 			</Container>

@@ -17,7 +17,6 @@
 	border-radius: 20px;
 
 	
-	
 }
 
 .img-container {
@@ -36,10 +35,12 @@
 
 .img-container3 {
 	position: relative;
-  float: right;
-  width: 130%;
+  	float: right;
+  	width: 130%;
   
 }
+
+
 
 
 .clearfix::after {

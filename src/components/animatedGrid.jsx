@@ -1,12 +1,9 @@
 import React from 'react';
 import {Container,Row,Col} from 'react-bootstrap';
-
 import CarouselCel from './carouselcelular/carouselCelular.jsx';
-import {Carosseltitulo1} from '../texts/InfoHome';
-import {CarosselSubTitulo1} from '../texts/InfoHome';
 import '../Styles/ButtonStyle.css';
-
 import { useTranslation } from 'react-i18next';
+
 
 export const AnimatedGrid = () => {
 	const {t}= useTranslation();
@@ -21,12 +18,12 @@ export const AnimatedGrid = () => {
 					</Col>
 					
 			    <Col sm={12} md={6} lg={6}>
-						<Carosseltitulo1></Carosseltitulo1>
-						<CarosselSubTitulo1></CarosselSubTitulo1>
+				<h1 className="textbold">{t('carousel.title1')}<span id= "textdecoration"> {t('carousel.title1-2')}</span>{t('samllText')}</h1>
+				<p className="p-subtitle">{t('carousel.subtitle1')}</p>
 					  <Row>
-						  <Col xs={2} md={4} lg={1}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button>
+						  <Col xs={5} md={4} lg={2}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button>
               </Col>
-						  <Col xs={2} md={4} lg={1} ><button className="BtnSecundary">{t('btn.btn_seemore')}</button>
+						  <Col xs={5} md={4} lg={1} ><button className="BtnSecundary">{t('btn.btn_seemore')}</button>
               </Col>
   					</Row>
 					</Col>

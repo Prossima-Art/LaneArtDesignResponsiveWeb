@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { useTranslation } from 'react-i18next';
 import {Container,Row,Col} from 'react-bootstrap';
 import './portfolio.css'
 
@@ -22,8 +22,7 @@ import Heart from './imgPortfolio/heart-icon.svg';
 import Cube from './imgPortfolio/cubes-icon.svg';
 
 
-//---import texts
-import {RewardsTitleStar, RewardsSubtitleStar, RewardsTitleCube, RewardsSubtitleCube, RewardsTitleHeart, RewardsSubtitleHeart} from '../../texts/InfoPortfolio.jsx';
+
 
 export function ProjectsGrid() {
   return (
@@ -31,19 +30,19 @@ export function ProjectsGrid() {
 			
 				<Container fluid >
 				  <Row className="mt-3">
-				    <Col lg={4}><img src={Tumb1} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb2} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb3} className="TumbProjects" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb1} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb2} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb3} className="TumbProjects mb-2" alt='...'/></Col>
 				  </Row>
 					<Row className="mt-3">
-				    <Col lg={4}><img src={Tumb4} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb5} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb6} className="TumbProjects" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb4} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb5} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb6} className="TumbProjects mb-2" alt='...'/></Col>
 				  </Row>
 					<Row className="mt-3">
-				    <Col lg={4}><img src={Tumb7} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb8} className="TumbProjects" alt='...'/></Col>
-				    <Col lg={4}><img src={Tumb9} className="TumbProjects" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb7} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb8} className="TumbProjects mb-2" alt='...'/></Col>
+				    <Col xs={12} lg={4}><img src={Tumb9} className="TumbProjects mb-2" alt='...'/></Col>
 				  </Row>
 					
 				</Container>
@@ -55,30 +54,35 @@ export function ProjectsGrid() {
 
 
 export function RewardsGrid() {
+	const {t}= useTranslation();
+
   return (
 		<>
 				  <Container className="centralized mt-5">
 						  <Row className="rewards">
-								<Col className="teste col-auto">
-								<img src={Heart} alt='...'/>
-								<RewardsTitleStar></RewardsTitleStar>
-								<RewardsSubtitleStar></RewardsSubtitleStar>
+								<Col className="alingleft col-auto mt-3">
+								<img src={Star} alt='...'/>
+								<h1 className="textbold mt-2">{t('Rewards.title')}</h1>
+								<h1 className="p-subtitle mb-3">{t('Rewards.subtitle')}</h1>
 								</Col>
 								
 								<Col sm={1}><div className="vl"></div></Col>
 								
-								<Col className="teste col-auto">
+								<Col className="alingleft col-auto mt-3">
 								<img src={Cube} alt='...'/>
-								<RewardsTitleCube></RewardsTitleCube>
-								<RewardsSubtitleCube></RewardsSubtitleCube>
+								<h1 className="textbold mt-2">{t('Rewards.title2')}</h1>
+								<h1 className="p-subtitle mb-3">{t('Rewards.subtitle2')}</h1>
 								</Col>
 
 								<Col sm={1}><div className="vl"></div></Col>
 								
-								<Col className="teste col-auto">
+								<Col className="alingleft col-auto mt-3">
 								<img src={Heart} alt='...'/>
-								<RewardsTitleHeart></RewardsTitleHeart>
-								<RewardsSubtitleHeart></RewardsSubtitleHeart>
+								<Col>
+								<h1 className="textbold mt-2">{t('Rewards.title3')}</h1>
+								<h1 className="p-subtitle mb-3">{t('Rewards.subtitle3')}</h1>
+								</Col>
+								
 								</Col>
 							
 						  </Row>

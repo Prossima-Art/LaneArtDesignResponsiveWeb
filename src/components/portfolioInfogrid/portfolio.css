@@ -1,43 +1,62 @@
 
 
 
-
 .banner{
 	position: relative;
 	display: flex; 
 	flex-direction: flex-end;
-
-	
+	justify-content: end;
+	align-items: flex-end;
 	width: 100%;
-  height: auto;
-  object-fit: fill;
-
+	height: auto;
+	object-fit: fill;
+	
 }
 
- 
 
+
+@media only screen and (max-width: 600px) {
+	.banner svg {
+	display: flex; 
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: -50%;
+	max-width: 100%;
+	max-height: 100%;
+	}
+  }
+ 
+.sizebox{
+	width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.sizebox {
+		width: 100%;
+	}
+  }
 
 .TumbProjects{
 	padding: 5px;
 	margin: 0px;
 	max-width: 100%;
-  height: auto;
-  object-fit: fill;
+  	height: auto;
+ 	object-fit: fill;
 
 	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
 	background: rgba(255, 255, 255, 0.5);
 	border-radius: 20px;
 	border: none;
 
-	}
-
-	
 }
 
-img.Tumbprojects{
+
+.TumbProjects img{
 	height: 290px;
 	width: auto;
 }
+
 
 
 
@@ -57,12 +76,10 @@ img.Tumbprojects{
 
 }
 
-.teste{
-	text-align-last: left;
-}
+
 
 .vl {
   border-left: 2px solid #B1B4C4;
   border-radius: 2px;
-	height: 80px;
+  height: 80px;
 }

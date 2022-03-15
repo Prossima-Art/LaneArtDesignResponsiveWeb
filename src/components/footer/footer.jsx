@@ -9,8 +9,8 @@ import WhatsApp from '../contactIcons/iconsSvg/whats-icon.svg';
 import Email from '../contactIcons/iconsSvg/email-icon.svg';
 
 
-import {Logo} from '../../texts/logoHeader.jsx';
-///Import text
+import {Logo} from '../../Styles/logoHeader';
+
 
 import { useTranslation } from 'react-i18next';
 
@@ -40,7 +40,7 @@ export default function Footer() {
 							</Col>
 						
 						<Row className="p-subtitle mt-5">
-							<Col sm={6}> © Todos os direitos reservados, 2022.</Col>
+							<Col sm={6}> {t('footer.title')}</Col>
 				  	</Row>
 					</Row>
 

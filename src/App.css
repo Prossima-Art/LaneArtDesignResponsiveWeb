@@ -4,6 +4,7 @@
   font-family: 'Inter', sans-serif;
 	
 }
+
 body{
 	overflow-x:hidden;
 }
@@ -83,7 +84,6 @@ a:-webkit-any-link {
 	display: flex;
   justify-content: center;
   flex-direction: column;
-  aling-itens: center;
 	margin-top: 0%;
 	
 }
@@ -92,4 +92,9 @@ a:-webkit-any-link {
 .centralized{
 	justify-content: center;
 	text-align: center;
+}
+
+
+.alingleft{
+	text-align-last: left;
 }
