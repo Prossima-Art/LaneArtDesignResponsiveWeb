@@ -101,7 +101,7 @@ export function ModalForm() {
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="Detalhes" onChange={handleChange}>
-                                <Form.Label>Deseja dar mais detalhes?</Form.Label>
+                                <Form.Label>Conte para nós...</Form.Label>
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
                         </Col>
