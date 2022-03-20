@@ -9,14 +9,11 @@ import '../../Styles/ButtonStyle.css';
 import CarouNuka from './carousel-capa.jsx';
 import { useTranslation } from 'react-i18next';
 
-
-
+import { ModalContato } from '../modalFrom/modal'
 
 
 export default function Capa() {
 	const { t } = useTranslation();
-
-
 
 	return (
 		<>
@@ -26,10 +23,11 @@ export default function Capa() {
 						<h1 className="cols-auto h1-md" >{t('Info.capaTitle')}<br></br>{t('Info.capaTitlebr')}<br></br><span id="textdecoration">{t('Info.capaTitleDecoration')}</span></h1>
 						<p className="cols-auto p-subtitle">{t('Info.capasubtitle')}<br></br>{t('Info.capasubtitle2')}<br></br><span id="textdecoration">{t('Info.capasubtitle3')}</span>{t('samllText')}</p>
 						
-
 						<Row>
 							<Col sx={2} xs="auto">
-								<Button className="BtnPrimary ml-btn">{t('btn.btn_Contact')}</Button>
+								<ModalContato>
+									<Button className="BtnPrimary ml-btn">{t('btn.btn_Contact')}</Button>
+								</ModalContato>
 							</Col>
 							<Col sx={8} xs="auto">
 								<div>

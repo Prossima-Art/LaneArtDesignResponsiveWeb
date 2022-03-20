@@ -1,21 +1,21 @@
-import React, {useEffect} from 'react';
-import {BtnTheme} from './style.jsx'
+import React, { useEffect } from 'react';
+import { BtnTheme } from './style.jsx'
 import 'bootstrap/dist/css/bootstrap.css';
 import Button from 'react-bootstrap/Button';
-import {Navbar,Nav,Container,NavDropdown} from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 //____
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 // import Styles
-import {GlobalStyle} from '../../Styles/GlobalStyles';
+import { GlobalStyle } from '../../Styles/GlobalStyles';
 import './style.css';
 import '../../Styles/ButtonStyle.css';
 
 // import Logo
-import {Logo} from '../../Styles/logoHeader';
+import { Logo } from '../../Styles/logoHeader';
 
 ///imports for translate
 
@@ -32,7 +32,8 @@ import 'bootstrap/dist/js/bootstrap.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'flag-icon-css/css/flag-icon.min.css'
 
-
+import '../modalFrom/modal';
+import { ModalContato } from '../modalFrom/modal'//Borja
 
 
 const languages = [
@@ -67,86 +68,81 @@ const GlobeIcon = ({ width = 24, height = 24 }) => (
 )
 
 
-export default function NavBar () {
-	const currentLanguageCode = cookies.get('i18next') || 'en'
+export default function NavBar() {
+  const currentLanguageCode = cookies.get('i18next') || 'en'
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode)
   const { t } = useTranslation()
 
   useEffect(() => {
-		console.log('Setting page stuff')
+    console.log('Setting page stuff')
     document.title = t('app_title')
-		console.log(document.title)
+    console.log(document.title)
   }, [currentLanguage, t])
-  
+
   return (
     <>
-    <Navbar className="navbar" expand="sm">
-			<Container fluid >
-				<Navbar.Brand href="#action1"><Logo/> </Navbar.Brand>
-					<Navbar.Toggle aria-controls="navbarScroll" />
-					<Navbar.Collapse id="navbarScroll">
-						<Nav
-							className="me-auto my-2 my-lg-0"
-							style={{ maxHeight: '100px' }}
-							navbarScroll
-						>
-							<Nav.Link> <Link to="/">{t('nav_bar_Home')} </Link> </Nav.Link>
-							<Nav.Link> <Link to="/Preco">{t('nav_bar_Price')} </Link> </Nav.Link>
-							<Nav.Link> <Link to="/Portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>					
-						</Nav>
-
-
-
-						<div className="dropdown">
-            <button
-              className="btn btn-link dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
+      <Navbar className="navbar" expand="sm">
+        <Container fluid >
+          <Navbar.Brand href="#action1"><Logo /> </Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="me-auto my-2 my-lg-0"
+              style={{ maxHeight: '100px' }}
+              navbarScroll
             >
-							<GlobeIcon />
+              <Nav.Link> <Link to="/">{t('nav_bar_Home')} </Link> </Nav.Link>
+              <Nav.Link> <Link to="/Preco">{t('nav_bar_Price')} </Link> </Nav.Link>
+              <Nav.Link> <Link to="/Portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>
+            </Nav>
 
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><span className="dropdown-item-text">{t('language')}</span>
-              </li>
-              {languages.map(({ code, name, country_code }) => (
-                <li key={country_code}>
-                  <a href="#"
-                    className={classNames('dropdown-item', {
-                      desabled: currentLanguageCode === code,
-                    })}
-                    onClick={() => {
-                      i18next.changeLanguage(code)
-                    }}
-                  >
-                    <span
-                      className={`flag-icon flag-icon-${country_code} mx-2`}
-                      style={{
-                        opacity: currentLanguageCode === code ? 0.5 : 1,
-                      }}
-                    ></span>
-                    {name}
-                  </a>
+            <div className="dropdown">
+              <button
+                className="btn btn-link dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <GlobeIcon />
+
+              </button>
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><span className="dropdown-item-text">{t('language')}</span>
                 </li>
-              ))}
-            </ul>
-          </div>
-        
+                {languages.map(({ code, name, country_code }) => (
+                  <li key={country_code}>
+                    <a href="#"
+                      className={classNames('dropdown-item', {
+                        desabled: currentLanguageCode === code,
+                      })}
+                      onClick={() => {
+                        i18next.changeLanguage(code)
+                      }}
+                    >
+                      <span
+                        className={`flag-icon flag-icon-${country_code} mx-2`}
+                        style={{
+                          opacity: currentLanguageCode === code ? 0.5 : 1,
+                        }}
+                      ></span>
+                      {name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-						
-		
-						<BtnTheme />
-						<Button className="BtnPrimary">{t('btn.btn_Contact')}</Button>
-					</Navbar.Collapse>
+            <BtnTheme />
+            <ModalContato>
+              <Button className="BtnPrimary">{t('btn.btn_Contact')}</Button>
+            </ModalContato>
 
-				
-				</Container>
-			</Navbar>
+          </Navbar.Collapse>
 
+        </Container>
+      </Navbar>
 
-			
     </>
   )
 };
