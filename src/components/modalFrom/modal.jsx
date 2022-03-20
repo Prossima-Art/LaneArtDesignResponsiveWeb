@@ -50,10 +50,10 @@ export function OffCanvasExample({ ...props }) {
 export function ModalForm() {
 
     const [toSend, setToSend] = useState({
-        from_name: '',
+        Nome: '',
         to_name: 'LaneArtDesign',
-        message: '',
-        reply_to: '',
+        Detalhes: '',
+        Email: '',
     });
 
 
@@ -82,33 +82,38 @@ export function ModalForm() {
 
     return (
         <>
-            <Form onSubmit={onSubmit}>
+            <Form>
                 <Container>
                     <Row>
                         <Col sm={4}>
                             <img className="imgcontainer" src={Img1} alt="..." />
                         </Col>
                         <Col sm={{ span: 5 }}>
-                            <Form.Group className="mt-5 mb-3" controlId="Nome" value={toSend.from_name} onChange={handleChange}>
+                            <Form.Group className="mt-5 mb-3" controlId="Nome">
                                 <Form.Label>Nome ou Apelido*</Form.Label>
-                                <input type='submit' name='nose' value={toSend.from_name} ></input>
+                                
                                 <Form.Control type="text" placeholder="Nome" />
                             </Form.Group>
 
-                            <Form.Group className="mb-3" controlId="Assunto" value={toSend.message} onChange={handleChange}>
-                                <Form.Label>Assunto</Form.Label>
-                                <Form.Control type="text" placeholder="Assunto" />
+                            <Form.Group className="mb-3" controlId="Email">
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control type="email" placeholder="Email" />
                             </Form.Group>
 
-                            <Form.Group className="mb-3" controlId="Detalhes" onChange={handleChange}>
+                            <Form.Group className="mb-3" controlId="Detalhes">
                                 <Form.Label>Conte para nós!</Form.Label>
-                                <Form.Control as="textarea" rows={3} />
+                                <Form.Control as="textarea" rows={3} value={toSend.reply_to}/>
                             </Form.Group>
                         </Col>
                     </Row>
                 </Container>
             </Form>
-            <Button sm={{ span: 3, offset: 3 }} variant="primary" type="submit">Enviar</Button>
+            
+            
+            <Button sm={{ span: 3, offset: 3 }} variant="primary" type="send" value={toSend.from_name} onClick={onSubmit}>Enviar</Button>
+            
+                
+                
         </>
     )
 }
