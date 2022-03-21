@@ -32,7 +32,7 @@ function App() {
 					<Route exact path="/" element={<Inicio />} />
 					<Route exact path="/Preco" element={<Preco />} />
 					<Route exact path="/Portfolio" element={<Portfolio />} />
-					<Route exact path="/*" element={<ErrorPage />} />
+					<Route exact path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
 
