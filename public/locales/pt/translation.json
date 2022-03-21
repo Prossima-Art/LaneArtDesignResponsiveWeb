@@ -105,6 +105,13 @@
         "item4":"Dev Front-End",
         "item5":"Dev Back-End",
         "item6":"Base de Dados"
+    },
+    "modal":{
+        "title":"Contato",
+        "name": "Seu nome*",
+        "email":"E-mail*",
+        "text": "Conte para nós!*",
+        "btnsend": "Enviar"
     }
 
     

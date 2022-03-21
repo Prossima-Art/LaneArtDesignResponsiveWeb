@@ -9,13 +9,6 @@ body{
 	overflow-x:hidden;
 }
 
-/* PORQUE CARAJO AFETA AO CONTAINER DO CAROUSELCELULAR? */
-.carossel{
-	background: gray;
-	/* height: 573px; */
-  align-items: center;
-	width: 100%;
-}
 
 a:-webkit-any-link {
 	text-decoration: none !important;	

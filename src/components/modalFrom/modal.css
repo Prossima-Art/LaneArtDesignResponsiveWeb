@@ -4,7 +4,9 @@ body{
 }
 
 
-
+.rtl{
+	direction: rtl;
+}
 
 .imagem1{
 	background: url("./imgForm/img1.png") no-repeat;

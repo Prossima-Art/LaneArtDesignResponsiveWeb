@@ -1,66 +1,61 @@
-
-
-
 .carousel {
-    padding: 20px;
-    perspective: 500px;
-    overflow: hidden;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  padding: 20px;
+  perspective: 500px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .carousel figure {
-    z-index: -1;
-    margin: 0;
-    width: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
+  z-index: -1;
+  margin: 0;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
 
 .carousel figure img {
-    width: 100%;
-    padding: 0 0px, 2;
+  width: 100%;
+  padding: 0 0px, 2;
 }
 
 .carousel figure img:not(:first-of-type) {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin-right: 20%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 20%;
 }
 
 /* Buton carousel */
 
-.carousel nav{
-	display: flex;
-	flex: 0 0 auto;
+.carousel nav {
+  display: flex;
+  flex: 0 0 auto;
   width: auto;
-	justify-content: center;
-	aling-items: center;
-	
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel nav button {
-		z-index: 2;
-    flex-direction: row;
-		align-content: center;
-		justify-content: center;
-    cursor: pointer;
-    color: transparent;
-    letter-spacing: 1px;
-    padding: 40px;
-		width: auto;
-		height: auto;
-    border: none;
-		
+  z-index: 2;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: transparent;
+  letter-spacing: 1px;
+  padding: 40px;
+  width: auto;
+  height: auto;
+  border: none;
 }
 
-.prev{
-	background:url("./carouselBtn/chevron-left.svg")no-repeat center ;
-	background-size:max(2.2rem, 1.2vw);
+.prev {
+  background: url('./carouselBtn/chevron-left.svg') no-repeat center;
+  background-size: max(2.2rem, 1.2vw);
 }
-.next{
-	background:url("./carouselBtn/chevron-right.svg")no-repeat center ;
-	background-size:max(2.2rem, 1.2vw);
+.next {
+  background: url('./carouselBtn/chevron-right.svg') no-repeat center;
+  background-size: max(2.2rem, 1.2vw);
 }

@@ -1,32 +1,26 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
 
-
-*{
-	font-family: 'Inter', sans-serif;
-	font-style: normal;	
-	
+* {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
 
-
-
-
-.LogoHeader{
-	height: 50px;
-	width: 100px;
-
+.LogoHeader {
+  height: 50px;
+  width: 100px;
 }
 
-
-.ModeBtn{
-	width: 24px;
-	height: 24px;	
+.ModeBtn {
+  width: 30px;
+  height: 30px;
 }
 
-.BtnTheme{
-  position:relative;
-  border:none;
-	background-color: rgba(59, 59, 59, 0) !important;
+.BtnTheme {
+  position: relative;
+  border: none;
+  background-color: rgba(59, 59, 59, 0) !important;
 }
-.navbar{
-	bachground:transparent !important;
+
+.navbar {
+  background: transparent !important;
 }
