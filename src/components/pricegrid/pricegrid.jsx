@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useTranslation } from 'react-i18next';
 import {Container,Row,Col} from 'react-bootstrap';
 import './pricegrid.css'
+import { ModalContato } from '../modalFrom/modal'//lane
 
 
 
@@ -38,8 +39,7 @@ export function Gridprice() {
 						<p className="p-subtitle centralized">{t('packages.item3')}</p>
 						<p className="p-subtitle centralized opacity-1">{t('packages.item4')}</p>
 						<p className="p-subtitle centralized opacity-1">{t('packages.item5')}</p>
-						<p className="p-subtitle centralized opacity-1 mb-5">{t('packages.item6')}</p>
-						
+						<p className="p-subtitle centralized opacity-1 mb-5">{t('packages.item6')}</p>						
 					</Col>
 
 					<Col className="cards ">              

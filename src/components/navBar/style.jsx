@@ -16,13 +16,13 @@ export function BtnTheme() {
       <button className="BtnTheme" onClick={handleToggle}>
         {Expandir ? (
           <img
-            src={LigthModeBtn}
+            src={DarkModeBtn}
             alt="light"
             className="ModeBtn"
           />
         ) : (
           <img
-            src={DarkModeBtn}
+            src={LigthModeBtn}
             alt="dark"
             className="ModeBtn"
           />
