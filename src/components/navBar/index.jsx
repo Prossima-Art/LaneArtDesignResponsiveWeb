@@ -92,8 +92,8 @@ export default function NavBar() {
               navbarScroll
             >
               <Nav.Link> <Link className="color" to="/">{t('nav_bar_Home')} </Link> </Nav.Link>
-              <Nav.Link> <Link className="color" to="/Preco">{t('nav_bar_Price')} </Link> </Nav.Link>
-              <Nav.Link> <Link className="color" to="/Portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>
+              <Nav.Link> <Link className="color" to="/preco">{t('nav_bar_Price')} </Link> </Nav.Link>
+              <Nav.Link> <Link className="color" to="/portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>
             </Nav>
 
             <div className="dropdown">
