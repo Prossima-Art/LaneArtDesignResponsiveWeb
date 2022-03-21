@@ -31,6 +31,7 @@ function App() {
 					<Route exact path="/" element={<Inicio />} />
 					<Route exact path="/Preco" element={<Preco />} />
 					<Route exact path="/Portfolio" element={<Portfolio />} />
+					<Route exact path="*" element={<div>pagina não encontrada</div>} />
 				</Routes>
 			</Router>
 
