@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import CarouselCel from './carouselcelular/carouselCelular.jsx';
 import '../Styles/ButtonStyle.css';
 import { useTranslation } from 'react-i18next';
-
+import { Link } from 'react-router-dom';
 
 export const AnimatedGrid = () => {
 	const { t } = useTranslation();
@@ -22,7 +22,9 @@ export const AnimatedGrid = () => {
 						<p className="p-subtitle">{t('carousel.subtitle1')}</p>
 						<Row>
 							{/* <Col xs={5} md={4} lg={2}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button></Col> */}
-							<Col xs={5} md={4} lg={1} ><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Col>
+							<Col xs={5} md={4} lg={1} >
+							<Link to="/Portfolio"><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Link>
+								</Col>
 						</Row>
 					</Col>
 

@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Tambs from './carouselportfolio/carouselportfolio'
 import '../Styles/ButtonStyle.css';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export const AnimatedGrid2 = () => {
 	const { t } = useTranslation();
@@ -17,7 +18,9 @@ export const AnimatedGrid2 = () => {
 						<p className="p-subtitle">{t('carousel.subtitle2')}</p>
 						<Row>
 							{/* <Col xs={5} md={4} lg={2}><button className="BtnPrimary">{t('btn.btn_Orcamento')}</button></Col> */}
-							<Col xs={5} md={4} lg={2}><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Col>
+							<Col xs={5} md={4} lg={2}>
+							<Link to="/Portfolio"><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Link>
+							</Col>
 						</Row>
 					</Col>
 
