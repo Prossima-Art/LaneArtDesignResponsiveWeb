@@ -30,8 +30,8 @@ function App() {
 			<Router>
 				<Routes>
 					<Route exact path="/" element={<Inicio />} />
-					<Route exact path="/Preco" element={<Preco />} />
-					<Route exact path="/Portfolio" element={<Portfolio />} />
+					<Route path="/Preco" element={<Preco />} />
+					<Route path="/Portfolio" element={<Portfolio />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
