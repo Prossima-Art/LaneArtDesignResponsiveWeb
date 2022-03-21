@@ -5,13 +5,6 @@ import slider1 from './img-celular/phone1.png';
 import slider2 from './img-celular/phone2.png';
 import slider3 from './img-celular/phone3.png';
 
-
-<<<<<<< HEAD
-=======
-// import NextBtn from './carouselBtn/chevron-left.svg';
-// import PrevtBtn from './carouselBtn/chevron-right.svg';
->>>>>>> a1c66deabfc08eda129f14f744a91377daed495c
-
 ///Function Carousel rotate
  window.addEventListener("load", async () => {
   var carousels = await document.querySelectorAll(".carousel");
@@ -98,8 +91,4 @@ export default function CarouselCel() {
 
     </>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a1c66deabfc08eda129f14f744a91377daed495c
