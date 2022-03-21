@@ -24,11 +24,9 @@ body{
 	}
 	
 }
-a{
-	color:#000 !important;
-	}
-
-
+.color{
+	color: #000;
+}
 	.BtnPrimary{
 		background: #D500F9;
 		color: white !important;
@@ -145,12 +143,17 @@ a{
 		right:0;
 		.nav-link{
 		color:#fff !important;
+		
 		}
 }
 
-a{
-	color:#fff !important;
-	}
+.color{
+	color: #fff;
+}
+
+a.dropdown-item{
+	color: #000 !importtant;
+}
 
 .rewards{
 	background: #252836;
