@@ -109,10 +109,10 @@ export function ModalForm() {
       <Form className="mb-5">
         <Container>
           <Row>
-            <Col sm={4}>
+            <Col md={4}>
               <img className="imgcontainer" src={Img1} alt="..." />
             </Col>
-            <Col sm={{ span: 5 }}>
+            <Col md={{ span: 5 }}>
               <Form.Group className="mt-5 mb-3" controlId="formGridName">
                 <Form.Label>{t("modal.name")}</Form.Label>
                 <Form.Control

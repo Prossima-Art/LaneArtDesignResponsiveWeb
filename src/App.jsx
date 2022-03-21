@@ -8,6 +8,7 @@ import { GlobalStyle } from './Styles/GlobalStyles';
 import Inicio from './Pages/Inicio.jsx';
 import Preco from './Pages/Preco.jsx';
 import Portfolio from './Pages/Portfolio.jsx';
+import ErrorPage from './Pages/ErrorPage.jsx';
 import AnimatedCursor from "react-animated-cursor"
 
 
@@ -31,6 +32,7 @@ function App() {
 					<Route exact path="/" element={<Inicio />} />
 					<Route exact path="/Preco" element={<Preco />} />
 					<Route exact path="/Portfolio" element={<Portfolio />} />
+					<Route exact path="/*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
 

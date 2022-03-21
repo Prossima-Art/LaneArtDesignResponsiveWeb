@@ -112,6 +112,10 @@
         "email":"E-mail*",
         "text": "Conte para nós!*",
         "btnsend": "Enviar"
+    },
+
+    "error":{
+        "title":"Não podemos encontrar a página que você está procurando"
     }
 
     

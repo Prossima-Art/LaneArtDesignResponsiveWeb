@@ -114,6 +114,10 @@
         "email":"E-mail*",
         "text": "¡Dinos!*",
         "btnsend": "Enviar"
+    },
+
+    "error":{
+        "title":"No podemos encontrar la página que está buscando."
     }
 
 

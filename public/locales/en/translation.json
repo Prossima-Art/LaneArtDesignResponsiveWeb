@@ -114,8 +114,11 @@
         "email":"E-mail*",
         "text": "Tell us!*",
         "btnsend": "Send"
-    }
+    },
 
+    "error":{
+        "title":"We cannot find the page you are looking for."
+    }
 
     }
   
