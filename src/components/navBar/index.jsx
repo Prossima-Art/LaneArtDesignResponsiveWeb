@@ -91,9 +91,9 @@ export default function NavBar() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-             <Nav.Link> <Link className="color margin" to="/">{t('nav_bar_Home')} </Link> </Nav.Link>
-             <Nav.Link> <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link> </Nav.Link>
-             <Nav.Link> <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link> </Nav.Link>
+             <Link className="color margin" to="/">{t('nav_bar_Home')} </Link>
+             <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link>
+             <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
             </Nav>
 
             <div className="dropdown">
