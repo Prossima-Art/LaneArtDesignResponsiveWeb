@@ -17,17 +17,8 @@ import AnimatedCursor from "react-animated-cursor"
 function App() {
 
 	return (
-		<>
-			<GlobalStyle />
-			{/* <AnimatedCursor
-				innerSize={8}
-				outerSize={8}
-				color='213, 0, 249'
-				outerAlpha={0.2}
-				innerScale={0.7}
-				outerScale={5}
-			/> */}
 			<Router>
+			<GlobalStyle />
 				<Routes>
 					<Route exact path="/" element={<Inicio />} />
 					<Route path="/preco" element={<Preco />} />
@@ -35,7 +26,6 @@ function App() {
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
-		</>
 	);
 }
 
