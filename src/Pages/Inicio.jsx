@@ -10,7 +10,7 @@ import {AnimatedGrid} from '../components/animatedGrid';
 import {AnimatedGrid2} from '../components/animatedGrid2';
 import {Contactsection} from '../components/contactsection';
 
-import {SNcards} from '../components/SNcards/SNcards';
+// import {SNcards} from '../components/SNcards/SNcards';
 import Footer from '../components/footer/footer';
 
 
@@ -27,7 +27,7 @@ function Inicio() {
 			<AnimatedGrid2/>
 	    	<Grid/>    
 			<Contactsection/>
-			<SNcards />
+			{/* <SNcards /> */}
 			<Footer />
   
 		</>

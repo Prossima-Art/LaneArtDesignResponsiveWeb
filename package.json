@@ -29,7 +29,6 @@
     "react-flag-icon-css": "^1.0.25",
     "react-i18next": "^11.15.6",
     "react-router-dom": "^6.2.2",
-    "react-twitter-embed": "^4.0.4",
     "styled-components": "^5.3.3",
     "vite": "^2.8.6",
     "yarn": "^1.22.18"
