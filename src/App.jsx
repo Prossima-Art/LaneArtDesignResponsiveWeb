@@ -1,6 +1,5 @@
 import React from "react";
 //___
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { GlobalStyle } from './Styles/GlobalStyles';
@@ -9,7 +8,7 @@ import Inicio from './Pages/Inicio.jsx';
 import Preco from './Pages/Preco.jsx';
 import Portfolio from './Pages/Portfolio.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 
 
 
