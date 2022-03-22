@@ -18,9 +18,9 @@ const loadingMarkup = (
 
 ReactDOM.render(
   <Suspense fallback={loadingMarkup}>
-    <React.StrictMode>
+    
       <App />
-    </React.StrictMode>
+    
   </Suspense>,
   document.getElementById('root')
 )
