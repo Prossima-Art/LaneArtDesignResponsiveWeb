@@ -7,6 +7,7 @@ import './SNcards.css'
 
 //--image import
 import Image1 from './imgSN/avaliate.png';
+import {Tweet1, Tweet2, Tweet3, Tweet4} from '../twitter/twitter';
 
 
 
@@ -23,16 +24,16 @@ export function SNcards() {
 						</Col>
 					</Row>
 				  <Row className="teste mt-3 animationX">
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-					<Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
+				    <Col xs={3} sm={3} ><Tweet1/></Col>
+				    <Col xs={3} sm={3} ><Tweet2/></Col>
+				    <Col xs={3} sm={3} ><Tweet3/></Col>
+					<Col xs={3} sm={3} ><Tweet4/></Col>
 				  </Row>	
 					<Row className="teste mt-3 animation-X">
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-				    <Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
-					<Col xs={3} sm={3} ><img src={Image1} className="cardeffect" alt='...'/></Col>
+				    <Col xs={3} sm={3} ><Tweet1/></Col>
+				    <Col xs={3} sm={3} ><Tweet2/></Col>
+				    <Col xs={3} sm={3} ><Tweet3/></Col>
+					<Col xs={3} sm={3} ><Tweet4/></Col>
 				  </Row>
 				</Container>
 		</>
