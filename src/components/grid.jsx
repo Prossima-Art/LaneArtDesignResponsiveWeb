@@ -25,25 +25,25 @@ export default function Grid() {
 					<Row className="mt-5">
 						<Col className="cards">
 							<img className="imgcard" src= {Car} alt="car"/>  
-							<p className="p-title ">{t('payments.title1')}</p>
+							<p className="p-title centralized">{t('payments.title1')}</p>
 							<p className="p-subtitle centralized ">{t('payments.subtitle1')}</p>
 					</Col>
 
 					<Col className="cards">
 							<img className="imgcard" src= {Btc} alt="btc"/>                  
-							<p className="p-title ">{t('payments.title2')}</p>
+							<p className="p-title centralized">{t('payments.title2')}</p>
 							<p className="p-subtitle centralized ">{t('payments.subtitle2')}</p>
 					</Col>
 						
 					<Col className="cards">
 							<img className="imgcard" src= {Pig} alt="pig"/>                  
-							<p className="p-title ">{t('payments.title3')}</p>
+							<p className="p-title centralized">{t('payments.title3')}</p>
 							<p className="p-subtitle centralized ">{t('payments.subtitle3')}</p>
 					</Col>
 						
 					<Col className="cards">
 							<img className="imgcard" src= {Card} alt="card"/>                  
-							<p className="p-title ">{t('payments.title4')}</p>
+							<p className="p-title centralized">{t('payments.title4')}</p>
 							<p className="p-subtitle centralized ">{t('payments.subtitle4')}</p>
 					</Col>
 					</Row>
