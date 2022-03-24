@@ -15,7 +15,7 @@ export default function Portfolioinfogrid() {
 				  <Container fluid className="mr-0 mt-5">
 						  <Row className="mr-0">
 								<Col className="mr-0 " xs={12} md={6}>
-								<h1 className="h1-title bold"> {t('portfolio.title')} <span id= "textdecoration">{t('portfolio.title1-2')}</span></h1>
+								<h1 className="h1-md mt-5"> {t('portfolio.title')} <span id= "textdecoration">{t('portfolio.title1-2')}</span></h1>
 								<p className="p-subtitle sizebox ">{t('portfolio.subtitle')}</p>
 								</Col>
 								<Col className="banner mt-1 mr-0" xs={12} md={6}><BannerSvg ></BannerSvg></Col>
