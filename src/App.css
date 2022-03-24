@@ -107,16 +107,13 @@ a:-webkit-any-link {
   transform: translate(-50%, -50%);
 }
 
-
-.textbox{
+.textbox {
   width: 80%;
-  
 }
 
-.textcenter{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items:flex-start;
-
+.textcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }

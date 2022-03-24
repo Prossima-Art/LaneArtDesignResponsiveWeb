@@ -52,10 +52,10 @@
 }
 
 .prev {
-  background: url('./carouselBtn/chevron-left.svg') no-repeat center;
+  background: url("./carouselBtn/chevron-left.svg") no-repeat center;
   background-size: max(2.2rem, 1.2vw);
 }
 .next {
-  background: url('./carouselBtn/chevron-right.svg') no-repeat center;
+  background: url("./carouselBtn/chevron-right.svg") no-repeat center;
   background-size: max(2.2rem, 1.2vw);
 }

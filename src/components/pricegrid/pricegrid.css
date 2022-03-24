@@ -1,14 +1,11 @@
-
-
-.cardPrice{
+.cardPrice {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 295px;
-  height:  auto;
+  height: auto;
 
-  background: #F6F6F6;
-  border-radius: 20px; 
+  background: #f6f6f6;
+  border-radius: 20px;
   margin: 50px; /* separção entre cards */
-
 }
