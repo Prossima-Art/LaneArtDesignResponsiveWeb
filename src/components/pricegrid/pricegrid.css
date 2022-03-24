@@ -2,10 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 295px;
+  max-width: 295px;
   height: auto;
 
   background: #f6f6f6;
   border-radius: 20px;
   margin: 50px; /* separção entre cards */
+}
+
+.cards {
+  margin: 2%;
+  padding: 0;
+  max-width: 420px;
 }

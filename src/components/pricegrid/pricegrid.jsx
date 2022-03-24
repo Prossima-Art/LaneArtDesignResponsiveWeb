@@ -15,7 +15,7 @@ export function InfoTituloBuy() {
 	return (
 		  <>
 	  <h1 className="h1-md mt-5"> {t('pricesection.title')}</h1>
-	  <p className="p-subtitle sizebox">{t('pricesection.subtitle')}</p>   
+	  <p className="p-subtitle textbox">{t('pricesection.subtitle')}</p>   
 	  </>
 	);
   }
@@ -31,8 +31,8 @@ export function Gridprice() {
 			  <Row>				
 			    
 					
-					<Row className="mt-5">
-						<Col className="cards">
+					<Row className="mt-5 centralized">
+						<Col sm={3} className="cards">
 						<p className="p-title mt-3">{t('packages.Desing')}</p>
 						<p className="p-subtitle centralized">{t('packages.item1')}</p>
 						<p className="p-subtitle centralized">{t('packages.item2')}</p>
@@ -40,9 +40,9 @@ export function Gridprice() {
 						<p className="p-subtitle centralized opacity-1">{t('packages.item4')}</p>
 						<p className="p-subtitle centralized opacity-1">{t('packages.item5')}</p>
 						<p className="p-subtitle centralized opacity-1 mb-5">{t('packages.item6')}</p>						
-					</Col>
+						</Col>
 
-					<Col className="cards ">              
+					<Col sm={3} className="cards ">              
 						<p className="p-title mt-3">{t('packages.Dev')}</p>
 						<p className="p-subtitle centralized opacity-1">{t('packages.item1')}</p>
 						<p className="p-subtitle centralized opacity-1">{t('packages.item2')}</p>
@@ -53,7 +53,7 @@ export function Gridprice() {
 						
 					</Col>
 						
-					<Col className="cards">                  
+					<Col sm={3} className="cards">                  
 						<p className="p-title mt-3">{t('packages.Expert')}</p>
 						<p className="p-subtitle centralized">{t('packages.item1')}</p>
 						<p className="p-subtitle centralized">{t('packages.item2')}</p>
