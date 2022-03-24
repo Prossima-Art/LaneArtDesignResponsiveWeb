@@ -83,9 +83,14 @@ body{
 
 .TumbProjects{
 	background: rgba(255, 255, 255, 0.5);
+	
+}
+
+.hover{
+	transition:1s;
 
 	&:hover{
-					transform: translateY(-10%);
+		transform: translateY(-4%);
 	}
 }
 

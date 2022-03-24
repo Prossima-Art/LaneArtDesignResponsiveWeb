@@ -1,59 +1,61 @@
 .banner {
   position: relative;
   display: flex;
-  flex-direction: flex-end;
-  justify-content: end;
+  justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   height: auto;
   object-fit: fill;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: row;
+  overflow-x: hidden;
+
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .banner svg {
     display: flex;
     flex-direction: center;
     justify-content: center;
     align-items: center;
     margin-top: -50%;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    height: auto;
   }
 }
 
 .sizebox {
-  width: 50%;
+  width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  .sizebox {
-    width: 100%;
-  }
+.TumbProjects{
+  margin: auto;
+  max-width: 80%;
 }
 
-.TumbProjects {
-  padding: 5px;
-  margin: 0px;
-  max-width: 100%;
+
+.TumbProjects img{
+  
+  margin-top: 20%;
+  object-fit: cover;
   height: auto;
-  object-fit: fill;
+  width: 100%;
 
-  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.15));
   background: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   border: none;
 }
 
-.TumbProjects img {
-  height: 290px;
-  width: auto;
-}
+
+
+
 
 .rewards {
-  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   align-items: center;
 
@@ -63,9 +65,34 @@
 
   filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.12));
 }
+ .sizeBox{
+   width: 100%;
+ }
 
+
+
+
+
+@media screen and (max-width: 900px) {
+  .sizeBox{
+    width: 70%;
+
+  }
+  
+}
 .vl {
   border-left: 2px solid #b1b4c4;
   border-radius: 2px;
   height: 80px;
 }
+
+@media screen and (max-width: 600px) {
+  .vl {
+    border-left: none;
+    border-bottom: 2px solid #b1b4c4;
+    border-radius: 2px;
+    height: 10px;
+  }
+}
+
+
