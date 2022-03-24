@@ -135,7 +135,7 @@ export default function NavBar() {
 
             <BtnTheme />
             <ModalContato>
-              <Button className="BtnPrimary">{t('btn.btn_Contact')}</Button>
+              <button className="BtnPrimary">{t('btn.btn_Contact')}</button>
             </ModalContato>
 
           </Navbar.Collapse>

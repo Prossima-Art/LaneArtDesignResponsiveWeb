@@ -25,9 +25,9 @@ export default function Footer() {
 				  <Row>
 						<Col sm={4}><Logo/></Col>
 						<Col sm={4}> 
-							<Link className="m-3" to="/">{t('nav_bar_Home')} </Link>
-							<Link className="m-3" to="/Preco">{t('nav_bar_Price')} </Link>
-							<Link className="m-3" to="/Portfolio">{t('nav_bar_Portfolio')}</Link>
+							<Link className="m-3 color" to="/">{t('nav_bar_Home')} </Link>
+							<Link className="m-3 color" to="/Preco">{t('nav_bar_Price')} </Link>
+							<Link className="m-3 color" to="/Portfolio">{t('nav_bar_Portfolio')}</Link>
 						</Col>
 						<Col sm={4}>
 								<a href="https://www.instagram.com/laneartdesign/?hl=en"><img className="imgcontact m-2" src= {Instagram} alt="Instagram Account"/></a>

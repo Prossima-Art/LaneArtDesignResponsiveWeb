@@ -37,13 +37,13 @@ export function OffCanvasExample({ ...props }) {
 
   return (
     <>
-      <Button
+      <button className="BtnPrimary"
         sm={{ span: 3, offset: 3 }}
         variant="primary"
         onClick={handleShow}
       >
         {t("modal.title")}
-      </Button>
+      </button>
 
       <Offcanvas
         className="offcanvasCss"

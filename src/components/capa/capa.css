@@ -61,3 +61,12 @@
 	width: 80vw;
 
 }
+
+.ml-center{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 0;
+	padding: 0;
+}

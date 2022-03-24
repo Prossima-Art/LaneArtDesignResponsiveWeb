@@ -15,7 +15,7 @@ export const AnimatedGrid = () => {
 						<CarouselCel></CarouselCel>
 					</Col>
 
-					<Col sm={12} md={6} lg={6}>
+					<Col sm={12} md={6} lg={6} className="textcenter">
 					<Text/>
 						<Row>
 							{/* <Col xs={5} md={4} lg={2}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button></Col> */}
@@ -38,8 +38,8 @@ export function Text() {
 	const { t } = useTranslation();
   return (
 	<>
-	<h1 className="textbold">{t('carousel.title1')}<span id="textdecoration"> {t('carousel.title1-2')}</span>{t('samllText')}</h1>
-	<p className="p-subtitle">{t('carousel.subtitle1')}</p>
+	<h1 className="textbold textbox">{t('carousel.title1')}<span id="textdecoration"> {t('carousel.title1-2')}</span>{t('samllText')}</h1>
+	<p className="p-subtitle textbox">{t('carousel.subtitle1')}</p>
 	</>
   )
 }

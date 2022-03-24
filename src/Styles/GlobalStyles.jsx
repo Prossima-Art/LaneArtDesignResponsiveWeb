@@ -1,5 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
-
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 body{
@@ -27,37 +26,39 @@ body{
 .color{
 	color: #000;
 }
-	.BtnPrimary{
-		background: #D500F9;
-		color: white !important;
+.BtnPrimary{
+	background: #D500F9;
+	color: white !important;
 	transition:1.5s;
 		
-				&:hover{
-					background-color: #D500F9;
-					transform: translateY(-10%);
-				}
-	}
+		&:hover{
+			background-color: #D500F9;
+			transform: translateY(-10%);
+		}
+	
+}
 
 .BtnSecundary{
-		background: #none;
-		color: #D500F9 !important;
-		transition:1.5s;
+	background: #none;
+	color: #D500F9 !important;
+	cursor: pointer;
+	transition:1.5s;
 		
-				&:hover{
-					background-color: #fff;
-					transform: translateY(-10%);
-				}
-	}
-
-	.cards{
-		 background: #F6F6F6;
-			transition:1s;
-			&:hover{
-					color-hover: #fff;
-					background-color: #C697FF;
-					transform: translateY(-10%);
-				}
+		&:hover{
+			background-color: #fff;
+			transform: translateY(-10%);
 		}
+}
+
+.cards{
+	background: #F6F6F6;
+	transition:1s;
+	&:hover{
+		color-hover: #fff;
+		background-color: #C697FF;
+		transform: translateY(-10%);
+			}
+	}
 
 	.textIcon{
 		color: #000 !important;

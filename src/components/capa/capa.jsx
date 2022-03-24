@@ -23,10 +23,10 @@ export default function Capa() {
 						<h1 className="cols-auto h1-md" >{t('Info.capaTitle')}<br></br>{t('Info.capaTitlebr')}<br></br><span id="textdecoration">{t('Info.capaTitleDecoration')}</span></h1>
 						<p className="cols-auto p-subtitle">{t('Info.capasubtitle')}<br></br>{t('Info.capasubtitle2')}<br></br><span id="textdecoration">{t('Info.capasubtitle3')}</span>{t('samllText')}</p>
 						
-						<Row>
-							<Col sx={2} xs="auto">
+						<Row className="ml-center">
+							<Col sx={2} xs="auto" className="p-0">
 								<ModalContato>
-									<Button className="BtnPrimary ml-btn">{t('btn.btn_Contact')}</Button>
+									<button className="BtnPrimary">{t('btn.btn_Contact')}</button>
 								</ModalContato>
 							</Col>
 							<Col sx={8} xs="auto">

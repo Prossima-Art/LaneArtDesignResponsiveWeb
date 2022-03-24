@@ -106,3 +106,17 @@ a:-webkit-any-link {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+.textbox{
+  width: 80%;
+  
+}
+
+.textcenter{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:flex-start;
+
+}
