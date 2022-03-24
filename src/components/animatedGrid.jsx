@@ -6,8 +6,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 export const AnimatedGrid = () => {
-	const { t } = useTranslation();
-
 	return (
 		<>
 			<Container fluid className="mt-5">
@@ -18,12 +16,11 @@ export const AnimatedGrid = () => {
 					</Col>
 
 					<Col sm={12} md={6} lg={6}>
-						<h1 className="textbold">{t('carousel.title1')}<span id="textdecoration"> {t('carousel.title1-2')}</span>{t('samllText')}</h1>
-						<p className="p-subtitle">{t('carousel.subtitle1')}</p>
+					<Text/>
 						<Row>
 							{/* <Col xs={5} md={4} lg={2}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button></Col> */}
 							<Col xs={5} md={4} lg={1} >
-							<Link to="/Portfolio"><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Link>
+							<Btn/>
 								</Col>
 						</Row>
 					</Col>
@@ -36,3 +33,23 @@ export const AnimatedGrid = () => {
 
 
 
+
+export function Text() {
+	const { t } = useTranslation();
+  return (
+	<>
+	<h1 className="textbold">{t('carousel.title1')}<span id="textdecoration"> {t('carousel.title1-2')}</span>{t('samllText')}</h1>
+	<p className="p-subtitle">{t('carousel.subtitle1')}</p>
+	</>
+  )
+}
+
+
+export function Btn() {
+	const { t } = useTranslation();
+	return (
+		<>
+		<Link to="/Portfolio"><button className="BtnSecundary">{t('btn.btn_seemore')}</button></Link>
+		</>
+	)
+  }

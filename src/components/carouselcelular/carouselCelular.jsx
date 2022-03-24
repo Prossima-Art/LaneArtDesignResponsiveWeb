@@ -76,7 +76,7 @@ export default function CarouselCel() {
   return (
     <>
 
-      <div className="carousel" id="carousel">
+      <div className="carousel" data-bfc>
         <figure>
           <img src={slider1} alt="carousel" />
           <img src={slider2} alt="carousel" />
