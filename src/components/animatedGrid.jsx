@@ -10,9 +10,9 @@ export const AnimatedGrid = () => {
 		<>
 			<Container fluid className="mt-5">
 				<Row>
-
+				<CarouselCel></CarouselCel>
 					<Col sm={12} md={6} lg={6}>
-						<CarouselCel></CarouselCel>
+					<CarouselCel></CarouselCel>
 					</Col>
 
 					<Col sm={12} md={6} lg={6} className="textcenter">

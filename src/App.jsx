@@ -11,6 +11,8 @@ import ErrorPage from './Pages/ErrorPage.jsx';
 // import AnimatedCursor from "react-animated-cursor"
 
 
+import CarouselCel from './components/carouselcelular/carouselCelular.jsx';{/*APAGAR */}
+
 
 
 function App() {
@@ -35,6 +37,12 @@ function App() {
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
+
+			
+
+			<CarouselCel />{/*APAGAR */}
+
+			
 		</>
 	);
 }

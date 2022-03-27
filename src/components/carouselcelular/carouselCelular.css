@@ -29,7 +29,7 @@
 
 /* Buton carousel */
 
-.carousel nav {
+.items {
   display: flex;
   flex: 0 0 auto;
   width: auto;
@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.carousel nav button {
+.items button {
   z-index: 2;
   flex-direction: row;
   align-content: center;
