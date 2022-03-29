@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import CarouselCel from "./carouselcelular/carouselCelular";
 
-export const AnimatedGrid = () => {
+export default function AnimatedGrid () {
   return (
     <>
       <Container fluid>
