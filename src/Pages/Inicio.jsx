@@ -6,7 +6,7 @@ import "../Styles/ButtonStyle.css";
 import NavBar from "../components/navBar/index";
 
 import Grid from "../components/grid.jsx";
-import { AnimatedGrid } from "../components/animatedGrid";
+import AnimatedGrid from "../components/animatedGrid";
 import { AnimatedGrid2 } from "../components/animatedGrid2";
 import { Contactsection } from "../components/contactsection";
 
