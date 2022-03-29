@@ -5,11 +5,10 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import CarouselCel from "./carouselcelular/carouselcelular";
 
-
 export const AnimatedGrid = () => {
   return (
     <>
-      <Container fluid className="">
+      <Container fluid>
         <Row>
           <Col sm={12} md={6} lg={6}>
             <CarouselCel></CarouselCel>
@@ -18,7 +17,6 @@ export const AnimatedGrid = () => {
           <Col sm={12} md={6} lg={6} className="textcenter">
             <Text />
             <Row>
-              {/* <Col xs={5} md={4} lg={2}><button className="BtnPrimary ml-btn">{t('btn.btn_Orcamento')}</button></Col> */}
               <Col xs={5} md={4} lg={1}>
                 <Btn />
               </Col>
