@@ -1,7 +1,14 @@
 import React, { useRef } from "react";
 import "./carouselcelular.css";
 
-import slider from "./img-celular/Mockup.png";
+import slide1 from "./img-celular/img1.png";
+import slide2 from "./img-celular/img2.png";
+import slide3 from "./img-celular/img3.png";
+import slide4 from "./img-celular/img4.png";
+import slide5 from "./img-celular/img5.png";
+import slide6 from "./img-celular/img6.png";
+import slide7 from "./img-celular/img7.png";
+import slide8 from "./img-celular/img8.png";
 
 
 export default function CarouselCel() {
@@ -10,28 +17,28 @@ export default function CarouselCel() {
       <div class="content-all">
         <div class="content-carrousel">
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide1} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide2} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide3} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide4} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide5} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide6} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide7} alt="carousel" />
           </figure>
           <figure>
-            <img src={slider} alt="carousel" />
+            <img src={slide8} alt="carousel" />
           </figure>
         </div>
       </div>
