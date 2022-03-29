@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/ButtonStyle.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import CarouselCel from "./carouselcelular/carouselcelular";
-
+import CarouselCel from "./carouselcelular/carouselCelular";
 
 export const AnimatedGrid = () => {
   return (
@@ -12,7 +11,7 @@ export const AnimatedGrid = () => {
       <Container fluid>
         <Row>
           <Col sm={12} md={6} lg={6}>
-            <CarouselCel/>
+            <CarouselCel />
           </Col>
 
           <Col sm={12} md={6} lg={6} className="textcenter">
