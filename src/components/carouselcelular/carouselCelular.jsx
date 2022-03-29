@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./carouselcelular.css";
 
 import slide1 from "./img-celular/img1.png";

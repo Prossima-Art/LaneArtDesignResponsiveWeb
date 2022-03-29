@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {GlobalStyle} from '../Styles/GlobalStyles';
 import '../App.css';
 import '../Styles/ButtonStyle.css';
