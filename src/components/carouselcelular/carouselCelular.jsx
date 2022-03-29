@@ -11,7 +11,8 @@ import slide7 from "./img-celular/img7.png";
 import slide8 from "./img-celular/img8.png";
 
 
-export default function CarouselCel() {
+
+function CarouselCel() {
   return (
     <>
       <div class="content-all">
@@ -43,5 +44,8 @@ export default function CarouselCel() {
         </div>
       </div>
     </>
-  );
+  )
 }
+
+export default CarouselCel
+
