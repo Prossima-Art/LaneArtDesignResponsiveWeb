@@ -1,5 +1,5 @@
 import React from "react";
-import "./carouselcelular.css";
+import "./carouselCelular.css";
 
 import slide1 from "./img-celular/img1.png";
 import slide2 from "./img-celular/img2.png";
