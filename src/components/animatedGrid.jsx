@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/ButtonStyle.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import CarouselCel from "./carouselcelular/carouselcelular";
+import CarouselCel from "./carouselcelular/carouselcelular.jsx";
 
 export const AnimatedGrid = () => {
   return (
