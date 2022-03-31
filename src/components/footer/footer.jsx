@@ -27,12 +27,12 @@ export default function Footer() {
 						<Link className="m-3 color" to="/portfolio">{t('nav_bar_Portfolio')}</Link>
 					</Col>
 					<Col sm={4}>
-						<a href="https://www.instagram.com/laneartdesign/?hl=en"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
-						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
+						<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
+						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
 
-						<a href="https://wa.me/qr/UDY4VLUBEXE7C1"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>
+						<a href="https://wa.me/qr/UDY4VLUBEXE7C1" target="_blank"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>
 
-						<a href="mailto: laneartdigital@gmail.com"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
+						<a href="mailto: laneartdigital@gmail.com" target="_blank"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
 
 					</Col>
 
