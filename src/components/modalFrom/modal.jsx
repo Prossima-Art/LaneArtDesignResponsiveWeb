@@ -114,7 +114,7 @@ export function ModalForm() {
             </Col>
             <Col md={{ span: 5 }}>
               <Form.Group className="mt-5 mb-3" controlId="formGridName">
-                <Form.Label>{t("modal.name")}</Form.Label>
+                <Form.Label>{t("modal.nameLabel")}</Form.Label>
                 <Form.Control
                   onChange={handleChange}
                   name="name"
@@ -124,7 +124,7 @@ export function ModalForm() {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formGridEmail">
-                <Form.Label>{t("modal.email")}</Form.Label>
+                <Form.Label>{t("modal.emailLabel")}</Form.Label>
                 <Form.Control
                   onChange={handleChange}
                   name="email"

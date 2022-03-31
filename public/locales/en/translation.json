@@ -110,8 +110,10 @@
     },
     "modal":{
         "title":"Contact",
-        "name": "Your name*",
-        "email":"E-mail*",
+        "nameLabel": "Your name*",
+        "name": "Please type your name",
+        "emailLabel":"E-mail*",
+        "email":"Please type your email",
         "text": "Tell us!*",
         "btnsend": "Send"
     },

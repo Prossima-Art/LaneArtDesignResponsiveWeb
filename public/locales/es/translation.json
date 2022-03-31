@@ -110,8 +110,10 @@
     },
     "modal":{
         "title":"Contacto",
-        "name": "Su nombre*",
-        "email":"E-mail*",
+        "nameLabel": "Su nombre*",
+        "name": "Escriba su nombre",
+        "emailLabel":"E-mail*",
+        "email":"Escriba su correo",
         "text": "¡Dinos!*",
         "btnsend": "Enviar"
     },
