@@ -21,8 +21,55 @@
   background-color: rgba(59, 59, 59, 0) !important;
 }
 
+.butonsCol,
+.dropdownCol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .container-fluid > .show {
+    background: white !important;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.15));
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0 2% !important;
+  }
+  .container-fluid > .show .intensNav {
+    margin: 2% 0 !important;
+  }
+
+  .intensNav {
+    overflow: hidden !important;
+    padding: 0 2% !important;
+  }
+
+  .butonsCol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdownCol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .navbar {
-  background: transparent !important;
+  background: white !important;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 575px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .margin {

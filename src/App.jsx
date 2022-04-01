@@ -16,7 +16,6 @@ function App() {
   return (
     <>
       <GlobalStyle />
-
       {/* <AnimatedCursor
 				innerSize={8}
 				outerSize={8}

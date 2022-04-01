@@ -28,6 +28,7 @@
     "react-dom": "^17.0.2",
     "react-flag-icon-css": "^1.0.25",
     "react-i18next": "^11.15.6",
+    "react-lottie": "^1.2.3",
     "react-router-dom": "^6.2.1",
     "styled-components": "^5.3.3",
     "vite": "^2.8.6",

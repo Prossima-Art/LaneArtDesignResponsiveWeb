@@ -13,11 +13,11 @@ body{
 	}
 
 	.navbar{
-	background: transparent !important;
+		background:red;
 	z-index:2 !important;
-	position: relative;
-	left:0;
+		left:0;
 	right:0;
+	top:0;
 	.nav-link{
 	color:#000 !important;
 	}
