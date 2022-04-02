@@ -21,12 +21,12 @@ export default function Footer() {
 		<>
 			<Container fluid className="mt-5 mb-5">
 				<Row>
-					<Col sm={4}><Logo /></Col>
-					<Col sm={4}>
+					<Col sm={8}><Logo /></Col>
+					{/* <Col sm={4}>
 						<Link className="m-3 color" target='_top' to="/">{t('nav_bar_Home')} </Link>
 						<Link className="m-3 color" target='_top' to="/preco">{t('nav_bar_Price')} </Link>
 						<Link className="m-3 color" target='_top' to="/portfolio">{t('nav_bar_Portfolio')}</Link>
-					</Col>
+					</Col> */}
 					<Col sm={4}>
 						<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
 						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
