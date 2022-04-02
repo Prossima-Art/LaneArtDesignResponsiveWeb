@@ -15,8 +15,8 @@ import slide8 from "./img-celular/img8.png";
 function CarouselCel() {
   return (
     <>
-      <div class="content-all">
-        <div class="content-carrousel">
+      <div className="content-all">
+        <div className="content-carrousel">
           <figure>
             <img src={slide1} alt="carousel" />
           </figure>

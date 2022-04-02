@@ -87,7 +87,7 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
+              className="intensNav me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
@@ -95,6 +95,10 @@ export default function NavBar() {
              <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link>
              <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
             </Nav>
+
+            <div className='butonsCol'>
+
+            <div className='dropdownCol'>
 
             <div className="dropdown">
               <button
@@ -132,12 +136,14 @@ export default function NavBar() {
                 ))}
               </ul>
             </div>
+            
 
             <BtnTheme />
+            </div>
             <ModalContato>
               <button className="BtnPrimary">{t('btn.btn_Contact')}</button>
             </ModalContato>
-
+            </div>
           </Navbar.Collapse>
 
         </Container>

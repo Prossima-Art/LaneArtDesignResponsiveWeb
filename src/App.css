@@ -25,11 +25,32 @@ a:-webkit-any-link {
 }
 
 .imgcard {
+  display: flex;
   width: 140px;
-  height: 119px;
+  height: 140px;
   margin-top: -50px;
   align-items: center;
   padding: 16px;
+  object-fit: cover;
+  background: #d500f9;
+  border-radius: 100%;
+}
+
+.lottiecard {
+  display: flex;
+  width: 140px;
+  height: 140px;
+  margin-top: -50px;
+  align-items: center;
+  padding: 16px;
+  background: #d500f9;
+  border-radius: 100%;
+}
+
+.lottieimg svg {
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .p-title {
@@ -117,5 +138,3 @@ a:-webkit-any-link {
   justify-content: center;
   align-items: flex-start;
 }
-
-

@@ -31,7 +31,7 @@ export default function Capa() {
 							</Col>
 							<Col sx={8} xs="auto">
 								<div>
-									<a href="#" className="row row-cols-auto">
+									<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank" className="row row-cols-auto">
 										<img className="IconPlay" src={IconPlay} alt="Icon" />
 										<motion.p initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 1, delay: 1 }} className="textIcon">{t('text.textPlayIcon')}<br></br>{t('text.textPlayIcon2')}</motion.p>
 									</a>

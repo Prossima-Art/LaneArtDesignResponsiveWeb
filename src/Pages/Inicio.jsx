@@ -20,7 +20,7 @@ function Inicio() {
     <>
       <NavBar />
       <GlobalStyle />
-      <Capa />
+      <Capa/>
       <AnimatedGrid />
       <AnimatedGrid2 />
       <Grid />

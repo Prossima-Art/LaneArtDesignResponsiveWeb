@@ -108,8 +108,10 @@
     },
     "modal":{
         "title":"Contato",
-        "name": "Seu nome*",
-        "email":"E-mail*",
+        "nameLabel": "Seu nome*",
+        "name": "Digite seu nome",
+        "emailLabel":"E-mail*",
+        "email":"Digite seu email",
         "text": "Conte para nós!*",
         "btnsend": "Enviar"
     },

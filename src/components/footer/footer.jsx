@@ -12,6 +12,7 @@ import { Logo } from '../../Styles/logoHeader';
 
 import { useTranslation } from 'react-i18next';
 
+// const Reaload =()=>(window.location.reload());
 
 export default function Footer() {
 	const { t } = useTranslation();
@@ -22,17 +23,17 @@ export default function Footer() {
 				<Row>
 					<Col sm={4}><Logo /></Col>
 					<Col sm={4}>
-						<Link className="m-3 color" to="/" target="_top">{t('nav_bar_Home')} </Link>
-						<Link className="m-3 color" to="/preco" target="_top">{t('nav_bar_Price')} </Link>
-						<Link className="m-3 color" to="/portfolio">{t('nav_bar_Portfolio')}</Link>
+						<Link className="m-3 color" target='_top' to="/">{t('nav_bar_Home')} </Link>
+						<Link className="m-3 color" target='_top' to="/preco">{t('nav_bar_Price')} </Link>
+						<Link className="m-3 color" target='_top' to="/portfolio">{t('nav_bar_Portfolio')}</Link>
 					</Col>
 					<Col sm={4}>
-						<a href="https://www.instagram.com/laneartdesign/?hl=en"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
-						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
+						<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
+						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
 
-						<a href="https://wa.me/qr/UDY4VLUBEXE7C1"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>
+						<a href="https://wa.me/qr/UDY4VLUBEXE7C1" target="_blank"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>
 
-						<a href="mailto: laneartdigital@gmail.com"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
+						<a href="mailto: laneartdigital@gmail.com" target="_blank"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
 
 					</Col>
 
