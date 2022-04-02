@@ -18,6 +18,7 @@ function Portfolio() {
 			<ProjectsGrid/>
 			<RewardsGrid />
 			<ContactGrid/>
+			<ScrollToTop/>
 			<Footer />
 			
 		</>
