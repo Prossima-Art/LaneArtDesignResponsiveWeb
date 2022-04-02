@@ -14,6 +14,7 @@ import { Contactsection } from "../components/contactsection";
 import Footer from "../components/footer/footer";
 
 import Capa from "../components/capa/capa.jsx";
+import ScrollToTop from "../components/scrollToTop/scrollToTop";
 
 function Inicio() {
   return (
@@ -26,7 +27,9 @@ function Inicio() {
       <Grid />
       <Contactsection />
       {/* <SNcards /> */}
+      <ScrollToTop/>
       <Footer />
+
     </>
   );
 }
