@@ -21,6 +21,7 @@ function Preco() {
 			<Gridprice/>
 			<Grid/>
 			<ContactGrid/>
+			<ScrollToTop/>
 			<Footer />
 			
   
