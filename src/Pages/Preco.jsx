@@ -10,6 +10,7 @@ import ContactGrid from '../components/contactIcons/contactIconsGrid';
 import Grid from '../components/grid.jsx';
 import {Gridprice, InfoTituloBuy } from '../components/pricegrid/pricegrid';
 import Footer from '../components/footer/footer';
+import ScrollToTop from "../components/scrollToTop/scrollToTop";
 
 
 function Preco() {
