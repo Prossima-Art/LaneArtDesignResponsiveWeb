@@ -29,7 +29,7 @@ body{
 .BtnPrimary{
 	background: #D500F9;
 	color: white !important;
-	transition:1.5s;
+	transition:1s;
 		
 		&:hover{
 			background-color: #D500F9;
@@ -42,7 +42,7 @@ body{
 	background: #none;
 	color: #D500F9 !important;
 	cursor: pointer;
-	transition:1.5s;
+	transition:1s;
 		
 		&:hover{
 			background-color: #fff;
