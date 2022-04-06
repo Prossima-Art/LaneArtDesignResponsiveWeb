@@ -38,7 +38,6 @@ export default function Grid() {
     },
   };
 
-
   const Cardlottie = {
     loop: true,
     autoplay: true,
@@ -48,7 +47,6 @@ export default function Grid() {
       className: "lottieimg",
     },
   };
-
 
   const Piglottie = {
     loop: true,
@@ -60,95 +58,84 @@ export default function Grid() {
     },
   };
   return (
-    <>
-      <Container fluid className=" mt-5">
-        <Row>
-          <Col sm={12}>
-            <h1 className="textbold">
-              {t("payments.h1")}
-              <span id="textdecoration"> {t("payments.h1-2")}</span>
-              {t("payments.h1-3")}
-              <br></br>
-              {t("payments.h1-4")}
-              <br></br>
-              {t("payments.h1-5")}
-            </h1>
+    <Container fluid className=" mt-5">
+      <Row>
+        <Col sm={12}>
+          <h1 className="textbold">
+            {t("payments.h1")}
+            <span id="textdecoration"> {t("payments.h1-2")}</span>
+            {t("payments.h1-3")}
+            <br></br>
+            {t("payments.h1-4")}
+            <br></br>
+            {t("payments.h1-5")}
+          </h1>
+        </Col>
+
+        <Row className="mt-5">
+          <Col className="cards">
+            <div className="lottiecard">
+              <Lottie
+                options={Deliverylottie}
+                style={{
+                  width: 100,
+                  height: 100,
+                  resizeMode: "contain",
+                }}
+              />
+            </div>
+            <p className="p-title centralized">{t("payments.title1")}</p>
+            <p className="p-subtitle centralized ">{t("payments.subtitle1")}</p>
           </Col>
 
-          <Row className="mt-5">
-            <Col className="cards">
-			<div className="lottiecard">
-                <Lottie
-                  options={Deliverylottie}
-                  style={{
-                    width: 100,
-                    height: 100,
-                    resizeMode: "contain",
-					
-                  }}
-                />
-              </div>
-              <p className="p-title centralized">{t("payments.title1")}</p>
-              <p className="p-subtitle centralized ">
-                {t("payments.subtitle1")}
-              </p>
-            </Col>
+          <Col className="cards">
+            <div className="lottiecard">
+              <Lottie
+                options={Btclottie}
+                style={{
+                  width: 100,
+                  height: 100,
+                  resizeMode: "contain",
+                }}
+              />
+            </div>
 
-            <Col className="cards">
-              <div className="lottiecard">
-                <Lottie
-                  options={Btclottie}
-                  style={{
-                    width: 100,
-                    height: 100,
-                    resizeMode: "contain",
-                  }}
-                />
-              </div>
+            <p className="p-title centralized">{t("payments.title2")}</p>
+            <p className="p-subtitle centralized ">{t("payments.subtitle2")}</p>
+          </Col>
 
-              <p className="p-title centralized">{t("payments.title2")}</p>
-              <p className="p-subtitle centralized ">
-                {t("payments.subtitle2")}
-              </p>
-            </Col>
+          <Col className="cards">
+            <div className="lottiecard">
+              <Lottie
+                options={Piglottie}
+                style={{
+                  width: 100,
+                  height: 100,
+                  resizeMode: "contain",
+                }}
+              />
+            </div>
+            <p className="p-title centralized">{t("payments.title3")}</p>
+            <p className="p-subtitle centralized ">{t("payments.subtitle3")}</p>
+          </Col>
 
-            <Col className="cards">
-			<div className="lottiecard">
-                <Lottie
-                  options={Piglottie}
-                  style={{
-                    width: 100,
-                    height: 100,
-                    resizeMode: "contain",
-                  }}
-                />
-              </div>
-              <p className="p-title centralized">{t("payments.title3")}</p>
-              <p className="p-subtitle centralized ">
-                {t("payments.subtitle3")}
-              </p>
-            </Col>
-
-            <Col className="cards">
-			<div className="lottiecard">
-                <Lottie
-                  options={Cardlottie}
-                  style={{
-                    width: 100,
-                    height: 100,
-                    resizeMode: "contain",
-                  }}
-                />
-              </div>
-              <p className="p-title centralized">{t("payments.title4")}</p>
-              <p className="p-subtitle centralized ">
-                {t("payments.subtitle4")}
-              </p>
-            </Col>
-          </Row>
+          <Col className="cards">
+            <div className="lottiecard">
+              <Lottie
+                options={Cardlottie}
+                style={{
+                  width: 100,
+                  height: 100,
+                  resizeMode: "contain",
+                }}
+              />
+            </div>
+            <p className="p-title centralized">{t("payments.title4")}</p>
+            <p className="p-subtitle centralized ">{t("payments.subtitle4")}</p>
+          </Col>
         </Row>
-      </Container>
-    </>
+      </Row>
+    </Container>
   );
 }
 
