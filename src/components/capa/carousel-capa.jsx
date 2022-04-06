@@ -79,8 +79,8 @@ export default function CarouNuka() {
       //speed = {2000}
     >
       <Slide1 />
-      <Slide1 />
-      <Slide1 />
+      <Slide2 />
+      <Slide3 />
     </Carousel>
   );
 }
@@ -98,6 +98,42 @@ export function Slide1() {
         </p>
       </div> */}
       <img src={Img1} className="CarouselImg" alt="..." />
+    </div>
+  );
+}
+
+
+export function Slide2() {
+  return (
+    <div className="containercarousel">
+      {/* <div className="cardsvg">
+        {card}
+        <p className="textcard p-subtitle bold">
+          Design system para qualquer tipo de negócio.{" "} <br></br>
+          <p className="p-subtitle mt-3">
+            Oferecemos a oportunidade de atrair mais clientes para seu negocio.
+          </p>{" "}
+        </p>
+      </div> */}
+      <img src={Img2} className="CarouselImg" alt="..." />
+    </div>
+  );
+}
+
+
+export function Slide3() {
+  return (
+    <div className="containercarousel">
+      {/* <div className="cardsvg">
+        {card}
+        <p className="textcard p-subtitle bold">
+          Design system para qualquer tipo de negócio.{" "} <br></br>
+          <p className="p-subtitle mt-3">
+            Oferecemos a oportunidade de atrair mais clientes para seu negocio.
+          </p>{" "}
+        </p>
+      </div> */}
+      <img src={Img3} className="CarouselImg" alt="..." />
     </div>
   );
 }
