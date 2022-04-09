@@ -1,5 +1,5 @@
 {
-    "app_title": "lane Art Design",
+    "app_title": "Lane Art Design",
     "language": "Languages",
     "nav_bar_Home": "Home",
     "nav_bar_Price": "Prices",
@@ -20,9 +20,7 @@
 
         "capasubtitle": "Show the best",
         "capasubtitle2": "showcase for your",
-        "capasubtitle3": "company"
-     
-
+        "capasubtitle3": "company"   
     },
 
     "text":{
@@ -59,7 +57,7 @@
         "title":"Digitalize and",
         "title1-2":"modernize",
         "title1-3":"your company!",
-        "subtitle":"Consult us without obligation",
+        "subtitle":"Feel free to consult us",
 
         "contacttitle": "Contact us!",
         "contactsubtitle": "We are open to discussing your project, improving the presence of your company or helping you develop your ideas"
