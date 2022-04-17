@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Lane-Art-Design/website/main/src/img/logo/logo.png"/>
+<img src="logo.png"/>
 </p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bdac8326-6b99-480f-b12f-65885ea5437f/deploy-status)](https://app.netlify.com/sites/lucid-goldwasser-8d9866/deploys)
