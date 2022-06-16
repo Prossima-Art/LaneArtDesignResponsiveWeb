@@ -24,7 +24,7 @@ Make sure you have installed the [Git](https://git-scm.com/downloads) tool.
 
 Then navigate to the new folder:
 ```shell
-cd cyberfutureWebsite
+cd LaneArtDesignResponsiveWeb
 ```
 and install all dependencies:
 ```shell
