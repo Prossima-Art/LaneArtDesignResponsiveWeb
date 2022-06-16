@@ -15,15 +15,27 @@ With this we pretend to:
 1. Accept new ideas by anyone willing to participate
 2. Be known by the Community
 
-# Install
-
+## Installation
+Install [Visual Studio](https://code.visualstudio.com/Download), open a terminal, clone the repository by typing:
 ```shell
-npm install 
-
-npm start
+git clone https://github.com/Lane-Art-Design/LaneArtDesignResponsiveWeb.git
 ```
-In a browser load page http://localhost:3000/. now you can test the site.
-server: http://localhost:3000/
+Make sure you have installed the [Git](https://git-scm.com/downloads) tool.
+
+Then navigate to the new folder:
+```shell
+cd cyberfutureWebsite
+```
+and install all dependencies:
+```shell
+npm install
+```
+then type:
+```shell
+npm run dev
+```
+Make sure that you have already installed the [node.js](https://nodejs.org/es/).
+Finally, open the browser at http://localhost:3000/ for visualizing the website. 
 
 
 # Licence 
