@@ -81,16 +81,13 @@ body{
 	background: #F6F6F6;
 }
 
-.TumbProjects{
-	background: rgba(255, 255, 255, 0.5);
-	
-}
 
 .hover{
 	transition:1s;
 
 	&:hover{
 		transform: translateY(-4%);
+	
 	}
 }
 
@@ -165,9 +162,6 @@ a.dropdown-item{
 	background: #252836;
 }
 
-.TumbProjects{
-	background: #252836;
-}
 
 .banner svg rect{
 	fill: #252735;

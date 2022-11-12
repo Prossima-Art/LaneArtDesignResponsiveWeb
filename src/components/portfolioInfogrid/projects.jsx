@@ -14,6 +14,9 @@ import Tumb6 from "./imgPortfolio/tumb6.png";
 import Tumb7 from "./imgPortfolio/tumb7.png";
 import Tumb8 from "./imgPortfolio/tumb8.png";
 import Tumb9 from "./imgPortfolio/tumb9.png";
+import Tumb10 from "./imgPortfolio/tumb10.png";
+import Tumb11 from "./imgPortfolio/tumb11.png";
+import Tumb12 from "./imgPortfolio/tumb12.png";
 
 //--icons import
 import Star from "./imgPortfolio/star2-icon.svg";
@@ -23,15 +26,55 @@ import Cube from "./imgPortfolio/cubes-icon.svg";
 export function ProjectsGrid() {
   return (
     <>
-      <Container>
-        <Row className="sizeprojects">
+    <Container>
+        <Row className="sizeprojects" >
+          <Col sm="auto" lg={4} className="TumbProjects">
+            <img src={Tumb10} className="mb-2 hover" alt="..." />
+            <img src={Tumb11} className="mb-2 hover" alt="..." />
+            <img src={Tumb12} className="mb-2 hover" alt="..." />
+          </Col>
+          </Row>
+          <Row>
           <Col sm="auto" lg={4} className="TumbProjects">
             <img src={Tumb1} className="mb-2 hover" alt="..." />
             <img src={Tumb2} className="mb-2 hover" alt="..." />
             <img src={Tumb3} className="mb-2 hover" alt="..." />
           </Col>
+          </Row>
+          <Row>
           <Col sm="auto" lg={4} className="TumbProjects">
             <img src={Tumb4} className="mb-2 hover" alt="..." />
+            <img src={Tumb5} className="mb-2 hover" alt="..." />
+            <img src={Tumb6} className="mb-2 hover" alt="..." />
+          </Col>
+          </Row>
+          <Row>
+          <Col sm="auto" lg={4} className="TumbProjects">
+            <img src={Tumb7} className="mb-2 hover" alt="..." />
+            <img src={Tumb8} className="mb-2 hover" alt="..." />
+            <img src={Tumb9} className="mb-2 hover" alt="..." />
+          </Col>
+        </Row>
+      </Container>
+
+
+
+
+
+      {/* <Container>
+        <Row className="sizeprojects">
+          <Col sm="auto" lg={4} className="TumbProjects">
+            <img src={Tumb10} className="mb-2 hover" alt="..." />
+            <img src={Tumb1} className="mb-2 hover" alt="..." />
+            <img src={Tumb4} className="mb-2 hover" alt="..." />
+          </Col>
+          <Col sm="auto" lg={4} className="TumbProjects">
+            <img src={Tumb11} className="mb-2 hover" alt="..." />
+            <img src={Tumb2} className="mb-2 hover" alt="..." />
+            <img src={Tumb3} className="mb-2 hover" alt="..." />
+          </Col>
+          <Col sm="auto" lg={4} className="TumbProjects">
+            <img src={Tumb12} className="mb-2 hover" alt="..." />
             <img src={Tumb5} className="mb-2 hover" alt="..." />
             <img src={Tumb6} className="mb-2 hover" alt="..." />
           </Col>
@@ -41,7 +84,7 @@ export function ProjectsGrid() {
             <img src={Tumb9} className="mb-2 hover" alt="..." />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 }
