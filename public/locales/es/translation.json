@@ -14,8 +14,9 @@
     },
 
     "Info":{
-        "capaTitle": "Creación y",
-        "capaTitlebr": "Diseño de",
+        "capaTitle": "Desarrollo y",
+        "capaTitlebr": "Diseño",
+        "of": "de",
         "capaTitleDecoration": "Apps",
 
         "capasubtitle": "¡Mostre el mejor",

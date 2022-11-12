@@ -21,10 +21,11 @@ export default function Capa() {
           <Col className="centralized mt-5" sx={12}>
             <h1 className="cols-auto h1-md">
               {t("Info.capaTitle")} {t("Info.capaTitlebr")}{" "}
-              <span id="textdecoration">{t("Info.capaTitleDecoration")}</span>
+			  <br></br>
+			  {t("Info.of")}{" "} <span id="textdecoration">{t("Info.capaTitleDecoration")}</span>
             </h1>
             <p className="cols-auto p-subtitle1 mt-5">
-              {t("Info.capasubtitle")}
+              {t("Info.capasubtitle")}{" "}
              
               {t("Info.capasubtitle2")}{" "}
 			  <span id="textdecoration">{t("Info.capasubtitle3")}</span>
@@ -32,7 +33,7 @@ export default function Capa() {
             </p>
 
             <Row className="centralized margemtop">
-              <Col sx={4} xs="auto" className="p-0 ">
+              <Col sx={4} xs="auto" className="p-0">
                 <ModalContato>
                   <button className="BtnPrimary">{t("btn.btn_Contact")}</button>
                 </ModalContato>
