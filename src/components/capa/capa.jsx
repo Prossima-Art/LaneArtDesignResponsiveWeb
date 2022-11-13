@@ -1,45 +1,51 @@
-import React, { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import Button from "react-bootstrap/Button";
-import { Container, Col, Row, Stack } from "react-bootstrap";
-import { motion } from "framer-motion";
-import IconPlay from "../../assets/svg/Play.svg";
-import "./capa.css";
-import "../../Styles/ButtonStyle.css";
-import { useTranslation } from "react-i18next";
-import Dedo from "./images-carousel/dedo.png";
-import Flash from "./images-carousel/flash.png";
-import AMao from "./images-carousel/apenasmao.png";
-import EyeClosed from "./images-carousel/eye-close.png";
-import EyeOpen from "./images-carousel/eye-open.png";
-import { ModalContato } from "../modalFrom/modal";
+import 'bootstrap/dist/css/bootstrap.css'
+import './capa.css'
+import '../../Styles/ButtonStyle.css'
 
-const Eyes = [EyeClosed, EyeOpen];
+import { Col, Container, Row } from 'react-bootstrap'
+import React, { useEffect, useState } from 'react'
+
+import AMao from './images-carousel/apenasmao.png'
+import Button from 'react-bootstrap/Button'
+import Dedo from './images-carousel/dedo.png'
+import EyeClosed from './images-carousel/eye-close.png'
+import EyeOpen from './images-carousel/eye-open.png'
+import Flash from './images-carousel/flash.png'
+import IconPlay from '../../assets/svg/Play.svg'
+import { ModalContato } from '../modalFrom/modal'
+import { motion } from 'framer-motion'
+import { useRef } from 'react'
+import { useTranslation } from 'react-i18next'
+
+const Eyes = [EyeClosed, EyeOpen]
 
 const icons = [
   {
     component: Dedo,
-    class: "dedo",
+    class: 'dedo',
   },
   {
     component: Flash,
-    class: "flash",
+    class: 'flash',
   },
   {
     component: AMao,
-    class: "mao",
+    class: 'mao',
   },
-];
+]
 export default function Capa() {
-  const { t } = useTranslation();
-  const [currentImage, setCurrentImage] = useState(null);
-
+  const { t } = useTranslation()
+  const ref = useRef(null)
   useEffect(() => {
-    const index = setInterval(() => {
-      setCurrentImage(Eyes[Math.floor(Math.random() * Eyes.length)]);
-    }, 5000);
-    return () => clearInterval(index);
-  }, []);
+    const eye = ref.current
+    if (eye) {
+      window.addEventListener('mousemove', (event) => {
+        const x = -(window.innerWidth / 2 - event.pageX) / 65
+        const y = -(window.innerHeight / 2 - event.pageY) / 65
+        eye.style.transform = `rotate(-45deg) translateY(${y}px) translateX(${x}px)`
+      })
+    }
+  })
 
   return (
     <>
@@ -47,21 +53,21 @@ export default function Capa() {
         <Row>
           <Col className="centralized mt-5" sx={12}>
             <h1 className="cols-auto h1-md">
-              {t("Info.capaTitle")} {t("Info.capaTitlebr")} <br></br>
-              {t("Info.of")}{" "}
-              <span id="textdecoration">{t("Info.capaTitleDecoration")}</span>
+              {t('Info.capaTitle')} {t('Info.capaTitlebr')} <br></br>
+              {t('Info.of')}{' '}
+              <span id="textdecoration">{t('Info.capaTitleDecoration')}</span>
             </h1>
             <p className="cols-auto p-subtitle1 mt-5">
-              {t("Info.capasubtitle")} {t("Info.capasubtitle2")}{" "}
-              <span id="textdecoration">{t("Info.capasubtitle3")}</span>
-              {t("samllText")}
+              {t('Info.capasubtitle')} {t('Info.capasubtitle2')}{' '}
+              <span id="textdecoration">{t('Info.capasubtitle3')}</span>
+              {t('samllText')}
             </p>
 
             <Row className="centralized margemtop">
               <Col sx={4} xs="auto" className="p-0">
                 <ModalContato>
                   <button className="BtnPrimary contact">
-                    {t("btn.btn_Contact")}
+                    {t('btn.btn_Contact')}
                   </button>
                 </ModalContato>
                 {icons.map((icon) => (
@@ -72,7 +78,14 @@ export default function Capa() {
                     className={icon.class}
                   />
                 ))}
-                <img className="eye" src={currentImage} />
+                {/* <img className="eye" src={currentImage} /> */}
+                <div className="eye">
+                  <div className="eyeBall">
+                    <div ref={ref} className="iris"></div>
+                    {/* <div class="eyeLid"></div> */}
+                    <div className="lid"></div>
+                  </div>
+                </div>
               </Col>
               <Col sx={8} xs="auto">
                 <div>
@@ -88,9 +101,9 @@ export default function Capa() {
                       transition={{ duration: 1, delay: 1 }}
                       className="textIcon"
                     >
-                      {t("text.textPlayIcon")}
+                      {t('text.textPlayIcon')}
                       <br></br>
-                      {t("text.textPlayIcon2")}
+                      {t('text.textPlayIcon2')}
                     </motion.p>
                   </a>
                 </div>
@@ -99,35 +112,6 @@ export default function Capa() {
           </Col>
         </Row>
       </Container>
-
-      {/* <Container fluid >
-				<Row>
-					<Col className="center grid" sx={12} md={6}>
-						<h1 className="cols-auto h1-md" >{t('Info.capaTitle')}<br></br>{t('Info.capaTitlebr')}<br></br><span id="textdecoration">{t('Info.capaTitleDecoration')}</span></h1>
-						<p className="cols-auto p-subtitle">{t('Info.capasubtitle')}<br></br>{t('Info.capasubtitle2')}<br></br><span id="textdecoration">{t('Info.capasubtitle3')}</span>{t('samllText')}</p>
-						
-						<Row className="ml-center">
-							<Col sx={2} xs="auto" className="p-0">
-								<ModalContato>
-									<button className="BtnPrimary">{t('btn.btn_Contact')}</button>
-								</ModalContato>
-							</Col>
-							<Col sx={8} xs="auto">
-								<div>
-									<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank" className="row row-cols-auto">
-										<img className="IconPlay" src={IconPlay} alt="Icon" />
-										<motion.p initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 1, delay: 1 }} className="textIcon">{t('text.textPlayIcon')}<br></br>{t('text.textPlayIcon2')}</motion.p>
-									</a>
-								</div>
-							</Col>
-						</Row>
-
-					</Col>
-					<Col sx={12} md={6}>
-						<CarouNuka></CarouNuka>
-					</Col>
-				</Row>
-			</Container> */}
     </>
-  );
+  )
 }

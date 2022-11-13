@@ -1,40 +1,27 @@
-import React, { useEffect } from 'react';
-import { BtnTheme } from './style.jsx'
 import 'bootstrap/dist/css/bootstrap.css';
-import Button from 'react-bootstrap/Button';
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-
-//____
-
-import { Link } from 'react-router-dom';
-
-
-// import Styles
-import { GlobalStyle } from '../../Styles/GlobalStyles';
 import './style.css';
 import '../../Styles/ButtonStyle.css';
+import '../../components/i18n.js';
+import 'bootstrap/dist/js/bootstrap.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../modalFrom/modal';
 
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import React, { useEffect } from 'react';
+
+import { BtnTheme } from './style.jsx'
+import Button from 'react-bootstrap/Button';
+// import Styles
+import { GlobalStyle } from '../../Styles/GlobalStyles';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import { Link } from 'react-router-dom';
 // import Logo
 import { Logo } from '../../Styles/logoHeader';
-
-///imports for translate
-
-import { useTranslation } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import { ModalContato } from '../modalFrom/modal'
 import classNames from 'classnames'
 import cookies from 'js-cookie';
 import i18next from 'i18next';
-import '../../components/i18n.js';
-
-
-import 'bootstrap/dist/js/bootstrap.js'
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'flag-icon-css/css/flag-icon.min.css'
-
-import '../modalFrom/modal';
-import { ModalContato } from '../modalFrom/modal'//Borja
-
+import { useTranslation } from 'react-i18next';
 
 const languages = [
   {
