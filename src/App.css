@@ -62,15 +62,14 @@ a:-webkit-any-link {
 
 .p-subtitle {
   font-weight: normal;
-  font-size: 100%;
-  line-height: 100%;
+  font-size: 120%;
+  
 }
 
 
 .p-subtitle1 {
   font-weight: normal;
   font-size: 150%;
-  line-height: 100%;
 }
 
 .opacity-1 {

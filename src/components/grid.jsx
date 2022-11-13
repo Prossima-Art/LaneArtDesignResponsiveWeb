@@ -1,19 +1,19 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Lottie from "react-lottie";
-import { default as animationDataBtc } from "../assets/btc.json";
-import { default as animationDatadelivery } from "../assets/delivery.json";
-import { default as animationDatacard } from "../assets/creditcard.json";
-import { default as animationDataPig } from "../assets/pig.json";
+import "../App.css";
 
-import { Container, Row, Col } from "react-bootstrap";
-import { useTranslation } from "react-i18next";
+import { Col, Container, Row } from "react-bootstrap";
 
-import Pig from "../assets/svg-pay/porco.svg";
 import Btc from "../assets/svg-pay/btc.svg";
 import Car from "../assets/svg-pay/car.svg";
 import Card from "../assets/svg-pay/card.svg";
-import "../App.css";
+import Lottie from "react-lottie";
+import Pig from "../assets/svg-pay/porco.svg";
+import React from "react";
+import { default as animationDataBtc } from "../assets/btc.json";
+import { default as animationDataPig } from "../assets/pig.json";
+import { default as animationDatacard } from "../assets/creditcard.json";
+import { default as animationDatadelivery } from "../assets/delivery.json";
+import { useTranslation } from "react-i18next";
 
 export default function Grid() {
   const { t } = useTranslation();
