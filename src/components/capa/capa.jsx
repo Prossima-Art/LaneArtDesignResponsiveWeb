@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Button from "react-bootstrap/Button";
 import { Container, Col, Row, Stack } from "react-bootstrap";
@@ -6,13 +6,40 @@ import { motion } from "framer-motion";
 import IconPlay from "../../assets/svg/Play.svg";
 import "./capa.css";
 import "../../Styles/ButtonStyle.css";
-import CarouNuka from "./carousel-capa.jsx";
 import { useTranslation } from "react-i18next";
-
+import Dedo from "./images-carousel/dedo.png";
+import Flash from "./images-carousel/flash.png";
+import AMao from "./images-carousel/apenasmao.png";
+import EyeClosed from "./images-carousel/eye-close.png";
+import EyeOpen from "./images-carousel/eye-open.png";
 import { ModalContato } from "../modalFrom/modal";
 
+const Eyes = [EyeClosed, EyeOpen];
+
+const icons = [
+  {
+    component: Dedo,
+    class: "dedo",
+  },
+  {
+    component: Flash,
+    class: "flash",
+  },
+  {
+    component: AMao,
+    class: "mao",
+  },
+];
 export default function Capa() {
   const { t } = useTranslation();
+  const [currentImage, setCurrentImage] = useState(null);
+
+  useEffect(() => {
+    const index = setInterval(() => {
+      setCurrentImage(Eyes[Math.floor(Math.random() * Eyes.length)]);
+    }, 5000);
+    return () => clearInterval(index);
+  }, []);
 
   return (
     <>
@@ -20,23 +47,32 @@ export default function Capa() {
         <Row>
           <Col className="centralized mt-5" sx={12}>
             <h1 className="cols-auto h1-md">
-              {t("Info.capaTitle")} {t("Info.capaTitlebr")}{" "}
-			  <br></br>
-			  {t("Info.of")}{" "} <span id="textdecoration">{t("Info.capaTitleDecoration")}</span>
+              {t("Info.capaTitle")} {t("Info.capaTitlebr")} <br></br>
+              {t("Info.of")}{" "}
+              <span id="textdecoration">{t("Info.capaTitleDecoration")}</span>
             </h1>
             <p className="cols-auto p-subtitle1 mt-5">
-              {t("Info.capasubtitle")}{" "}
-             
-              {t("Info.capasubtitle2")}{" "}
-			  <span id="textdecoration">{t("Info.capasubtitle3")}</span>
+              {t("Info.capasubtitle")} {t("Info.capasubtitle2")}{" "}
+              <span id="textdecoration">{t("Info.capasubtitle3")}</span>
               {t("samllText")}
             </p>
 
             <Row className="centralized margemtop">
               <Col sx={4} xs="auto" className="p-0">
                 <ModalContato>
-                  <button className="BtnPrimary">{t("btn.btn_Contact")}</button>
+                  <button className="BtnPrimary contact">
+                    {t("btn.btn_Contact")}
+                  </button>
                 </ModalContato>
+                {icons.map((icon) => (
+                  <img
+                    key={icon.class}
+                    src={icon.component}
+                    alt={icon.class}
+                    className={icon.class}
+                  />
+                ))}
+                <img className="eye" src={currentImage} />
               </Col>
               <Col sx={8} xs="auto">
                 <div>
@@ -95,6 +131,3 @@ export default function Capa() {
     </>
   );
 }
-
-
-
