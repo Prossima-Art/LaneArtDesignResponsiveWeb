@@ -49,6 +49,7 @@
 .flash {
   position: absolute;
 }
+
 .mao {
   right: 0;
   top: 8rem;
@@ -89,6 +90,24 @@
   right: 5rem;
   top: 23rem;
   z-index: 3;
+}
+@media only screen and (max-width: 47.5rem) {
+  .mao,
+  .dedo,
+  .flash,
+  .eye {
+    position: absolute;
+  }
+  .mao {
+    top: 20rem;
+  }
+  .eye {
+    top: 35rem;
+  } 
+  .flash {
+    top: 40rem;
+    left: 15%;
+  }
 }
 
 @keyframes fade {
