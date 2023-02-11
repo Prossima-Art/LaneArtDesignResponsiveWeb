@@ -5,19 +5,16 @@ import '../../Styles/ButtonStyle.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import React, { useEffect, useState } from 'react'
 
-import AMao from './images-carousel/apenasmao.png'
-import Button from 'react-bootstrap/Button'
-import Dedo from './images-carousel/dedo.png'
-import EyeClosed from './images-carousel/eye-close.png'
-import EyeOpen from './images-carousel/eye-open.png'
-import Flash from './images-carousel/flash.png'
+import Mao from './images-carousel/mao.svg'
+import Dedo from './images-carousel/dedo.svg'
+
+import Flash from './images-carousel/flash.svg'
 import IconPlay from '../../assets/svg/Play.svg'
 import { ModalContato } from '../modalFrom/modal'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 
-const Eyes = [EyeClosed, EyeOpen]
 
 const icons = [
   {
@@ -29,7 +26,7 @@ const icons = [
     class: 'flash',
   },
   {
-    component: AMao,
+    component: Mao,
     class: 'mao',
   },
 ]

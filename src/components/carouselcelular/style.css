@@ -1,10 +1,10 @@
 .content-all {
   width: 210px;
-  margin: auto;
+  margin: 20% auto 0 auto;
   height: 350px;
-  perspective: 800px;
+  perspective: 1000px;
   position: relative;
-  margin-top: 20%;
+  
 }
 
 .content-carrousel {
@@ -13,6 +13,8 @@
   position: absolute;
   animation: rotar 10s infinite linear;
   transform-style: preserve-3d;
+  transform-origin: center;
+  
 }
 
 .content-carrousel:hover {
@@ -22,9 +24,10 @@
 
 .content-carrousel figure {
   width: 150%;
-  height: 250px;
+  height: 250%;
   position: absolute;
   transition: all 300ms;
+  
 }
 
 .content-carrousel figure:hover {
@@ -55,6 +58,12 @@
 }
 .content-carrousel figure:nth-child(8) {
   transform: rotateY(315deg) translateZ(180px);
+}
+.content-carrousel figure:nth-child(9) {
+  transform: rotateY(360deg) translateZ(180px);
+}
+.content-carrousel figure:nth-child(10) {
+  transform: rotateY(360deg) translateZ(180px);
 }
 
 

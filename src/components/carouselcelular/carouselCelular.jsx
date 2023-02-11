@@ -9,6 +9,8 @@ import slide5 from "./img-celular/celular5.svg";
 import slide6 from "./img-celular/celular6.svg";
 import slide7 from "./img-celular/celular7.svg";
 import slide8 from "./img-celular/celular8.svg";
+import slide9 from "./img-celular/celular9.svg";
+import slide10 from "./img-celular/celular10.svg";
 
 
 
@@ -18,7 +20,7 @@ function CarouselCel() {
       <div className="content-all">
         <div className="content-carrousel">
           <figure>
-            <img src={slide1} alt="carousel" />
+            <img  src={slide1} alt="carousel" />
           </figure>
           <figure>
             <img src={slide2} alt="carousel" />
@@ -40,6 +42,12 @@ function CarouselCel() {
           </figure>
           <figure>
             <img src={slide8} alt="carousel" />
+          </figure>
+          <figure>
+            <img src={slide9} alt="carousel" />
+          </figure>
+          <figure>
+            <img src={slide10} alt="carousel" />
           </figure>
         </div>
       </div>
