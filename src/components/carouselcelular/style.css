@@ -41,7 +41,6 @@
 .content-carrousel figure:nth-child(3) {
   transform: rotateY(90deg) translateZ(180px);
 }
-
 .content-carrousel figure:nth-child(4) {
   transform: rotateY(135deg) translateZ(180px);
 }

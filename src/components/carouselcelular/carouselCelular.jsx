@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
 
-import slide1 from "./img-celular/img1.png";
-import slide2 from "./img-celular/img2.png";
-import slide3 from "./img-celular/img3.png";
-import slide4 from "./img-celular/img4.png";
-import slide5 from "./img-celular/img5.png";
-import slide6 from "./img-celular/img6.png";
-import slide7 from "./img-celular/img7.png";
-import slide8 from "./img-celular/img8.png";
+import slide1 from "./img-celular/celular1.svg";
+import slide2 from "./img-celular/celular2.svg";
+import slide3 from "./img-celular/celular3.svg";
+import slide4 from "./img-celular/celular4.svg";
+import slide5 from "./img-celular/celular5.svg";
+import slide6 from "./img-celular/celular6.svg";
+import slide7 from "./img-celular/celular7.svg";
+import slide8 from "./img-celular/celular8.svg";
 
 
 
