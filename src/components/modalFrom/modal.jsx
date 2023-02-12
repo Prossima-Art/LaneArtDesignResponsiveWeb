@@ -16,7 +16,6 @@ import "./modal.css";
 import Img1 from "./img/img1.png";
 import { send } from "emailjs-com";
 import { init } from "@emailjs/browser";
-init("DK_q8XK1WX8HXJG8e");
 
 export function ModalContato() {
   return (
