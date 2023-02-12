@@ -1,125 +1,119 @@
 {
-    "app_title": "Lane Art Design",
-    "language": "Languages",
-    "nav_bar_Home": "Home",
-    "nav_bar_Price": "Prices",
-    "nav_bar_Portfolio": "Portfolio",
-    "samllText": "!",
+  "app_title": "Lane Art Design",
+  "language": "Languages",
+  "nav_bar_Home": "Home",
+  "nav_bar_Price": "Prices",
+  "nav_bar_Portfolio": "Portfolio",
+  "samllText": "!",
 
-    "btn":{
-        "btn_Contact": "Contact",
-        "btn_Price": "Prices",
-        "btn_Orcamento": "Budget",
-        "btn_seemore": "See more"
-    },
+  "btn": {
+    "btn_Contact": "Contact",
+    "btn_Price": "Prices",
+    "btn_Orcamento": "Budget",
+    "btn_seemore": "See more"
+  },
 
-    "Info":{
-        "capaTitle": "Development and",
-        "capaTitlebr": "Design",
-        "of": "of",
-        "capaTitleDecoration": "Apps",
+  "Info": {
+    "capaTitle": "Development and",
+    "capaTitlebr": "Design",
+    "of": "of",
+    "capaTitleDecoration": "Apps",
+    "capasubtitle": "Show the best",
+    "capasubtitle2": "face for your",
+    "capasubtitle3": "company"
+  },
 
-        "capasubtitle": "Show the best",
-        "capasubtitle2": "showcase for your",
-        "capasubtitle3": "company"   
-    },
+  "text": {
+    "textPlayIcon": "Track our",
+    "textPlayIcon2": "projects"
+  },
 
-    "text":{
-        "textPlayIcon": "Track our",
-        "textPlayIcon2": "projects"
-    },
+  "carousel": {
+    "title1": "Designs",
+    "title1-2": "Customized",
+    "subtitle1": "Our team has proven experience in the development of apps with the best user interface (UI), and ease and friendly navigation (UX)",
+    "title2": "Modern",
+    "title2-2": "web design",
+    "title2-3": "for your company!",
+    "subtitle2": "Our team has expertise in React, ReactNative, Vue, Flutter and Javascript, which are the tools through which we can modernize your web site or your app."
+  },
+  "payments": {
+    "h1": "We Offer",
+    "h1-2": "flexibility",
+    "h1-3": ", in addition to",
+    "h1-4": "various forms of",
+    "h1-5": "payment!",
+    "title1": "Delivery time",
+    "title2": "Best discounts",
+    "title3": "Free of interest rates",
+    "title4": "An extra discount?",
+    "subtitle1": "The best deadlines for you who don't want to wait long to get your product",
+    "subtitle2": "We accept crypto payments",
+    "subtitle3": "Parcel your purchases",
+    "subtitle4": "5% off in cash purchases"
+  },
 
-    "carousel": {
-        "title1": "Designs",
-        "title1-2":"Customized",
-        "subtitle1": "Our team has an experience accredited in the development of apps with the best user interphase (UI) and the easiest navigation (UX)",
-        "title2":"Design web",
-        "title2-2":"modern",
-        "title2-3":"for your company!",
-        "subtitle2":"Our team is an expert in React, Flutter and Javascript, which are the tools through which we can modernize your web site."
-    },
-    "payments":{
-        "h1":"We Offer",
-        "h1-2":"flexibility",
-        "h1-3":", in addition to",
-        "h1-4":"various forms of",
-        "h1-5":"payments!",
-        "title1":"Delivery time",
-        "title2":"Best discounts",
-        "title3":"12x interest-free",
-        "title4":"Do you want a discount?",
-        "subtitle1":"The best deadlines for you who don't want to wait so long for your product",
-        "subtitle2":"We accept crypto payments",
-        "subtitle3":"Parcel your purchases on all your cards",
-        "subtitle4":"5% OFF, in cash purchases or in debt"
-    },
+  "contact": {
+    "title": "Digitalize and",
+    "title1-2": "modernize",
+    "title1-3": "your company!",
+    "subtitle": "Feel free to consult us",
+    "contacttitle": "Contact us!",
+    "contactsubtitle": "We are open to discusse your project, modernize the face of your company or help you develop your ideas"
+  },
 
-    "contact":{
-        "title":"Digitalize and",
-        "title1-2":"modernize",
-        "title1-3":"your company!",
-        "subtitle":"Feel free to consult us",
+  "avaliations": {
+    "title": "See the",
+    "title1-2": "evaluations",
+    "title1-3": "of our customers!"
+  },
 
-        "contacttitle": "Contact us!",
-        "contactsubtitle": "We are open to discussing your project, improving the presence of your company or helping you develop your ideas"
+  "footer": {
+    "title": "© All rights reserved,"
+  },
 
-    },
+  "portfolio": {
+    "title": "Hello, we are",
+    "title1-2": "Lane Art Design",
+    "subtitle": "We are experts in design, and in apps and web development. We use all modern tools to modernize and shape your ideas."
+  },
 
-    "avaliations":{
-        "title":"See the",
-        "title1-2":"evaluations",
-        "title1-3":"of our customers!"
-    },
+  "Rewards": {
+    "title": "15 National",
+    "title2": "1500+ Happy",
+    "title3": "2700+ Love us",
+    "subtitle": "Awards",
+    "subtitle2": "Customers",
+    "subtitle3": "Feedbacks"
+  },
 
-    "footer":{
-        "title": "© all rights reserved,"
-    },
+  "pricesection": {
+    "title": "Our service packages",
+    "subtitle": "What's wrong with your business? Does it need just to rejuvenate its face without changing its web/app code? Or it should continue with its face and just needs improving its source code? Does it otherwise need to change everything?"
+  },
 
-    "portfolio":{
-        "title": "Hello, we are",
-        "title1-2": "Lane Art Design",
-        "subtitle": "We are experts in web and app design and development. We use all modern tools to modernize and shape your ideas."
-    },
+  "packages": {
+    "Desing": "Package Design",
+    "Dev": "Package Dev",
+    "Expert": "Package Expert",
+    "item1": "Design System",
+    "item2": "Illustrations",
+    "item3": "Animations",
+    "item4": "Dev Front-End",
+    "item5": "Dev Back-End",
+    "item6": "Data Base"
+  },
+  "modal": {
+    "title": "Contact",
+    "nameLabel": "Your name*",
+    "name": "Please type your name",
+    "emailLabel": "E-mail*",
+    "email": "Please type your email",
+    "text": "Tell us!*",
+    "btnsend": "Send"
+  },
 
-    "Rewards":{
-        "title":"15 National",
-        "title2":"1500+ Happy",
-        "title3":"2700+ Lovely",
-        "subtitle": "Awards",
-        "subtitle2": "Customers",
-        "subtitle3": "Feedbacks"
-
-    },
-
-    "pricesection":{
-        "title":"Our service packages",
-        "subtitle":"What's wrong with your business? Does she just need to rejuvenate her face without changing the code? Or can she continue with her face and just change her code? Does she need to change everything?"
-    },
-
-    "packages":{
-        "Desing":"Package Design",
-        "Dev":"Package Dev",
-        "Expert":"Package Expert",
-        "item1":"Design System",
-        "item2":"Illustrations",
-        "item3":"Animations",
-        "item4":"Dev Front-End",
-        "item5":"Dev Back-End",
-        "item6":"Data Base"
-    },
-    "modal":{
-        "title":"Contact",
-        "nameLabel": "Your name*",
-        "name": "Please type your name",
-        "emailLabel":"E-mail*",
-        "email":"Please type your email",
-        "text": "Tell us!*",
-        "btnsend": "Send"
-    },
-
-    "error":{
-        "title":"We cannot find the page you are looking for."
-    }
-
-    }
-  
+  "error": {
+    "title": "We are sorry. We cannot find the page you are looking for."
+  }
+}
