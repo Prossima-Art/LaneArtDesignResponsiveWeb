@@ -16,6 +16,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
 	const { t } = useTranslation();
+	const CurrentYear = new Date().getFullYear();
 
 	return (
 		<>
@@ -38,7 +39,7 @@ export default function Footer() {
 					</Col>
 
 					<Row className="p-subtitle mt-5">
-						<Col sm={6}> {t('footer.title')}</Col>
+						<Col sm={6}> {t('footer.title')} {CurrentYear}.</Col>
 					</Row>
 				</Row>
 

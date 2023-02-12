@@ -15,6 +15,7 @@ import Footer from "../components/footer/footer";
 
 import Capa from "../components/capa/capa.jsx";
 import ScrollToTop from "../components/scrollToTop/scrollToTop";
+import { SrollimageView } from "../components/ScrollimageView/cards";
 
 function Inicio() {
   return (
@@ -26,7 +27,6 @@ function Inicio() {
       <AnimatedGrid2 />
       <Grid />
       <Contactsection />
-      {/* <SNcards /> */}
       <ScrollToTop/>
       <Footer />
 

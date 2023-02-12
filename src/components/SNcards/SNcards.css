@@ -3,7 +3,9 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
+
 }
+
 
 .cardeffect {
   background: #f7f7f7;
@@ -30,7 +32,7 @@
 }
 
 .animation-X {
-  animation: animateeffect-x 80s linear infinite;
+  animation: animateeffect-x 80s linear forwards infinite;
   animation-delay: -40s;
   animation-iteration-count: infinite;
 }
