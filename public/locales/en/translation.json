@@ -18,9 +18,8 @@
     "capaTitlebr": "Design",
     "of": "of",
     "capaTitleDecoration": "Apps",
-    "capasubtitle": "Show the best",
-    "capasubtitle2": "face for your",
-    "capasubtitle3": "company"
+    "capasubtitle": "Focused on helping our customers achieve their goals and take full advantage of technology."
+
   },
 
   "text": {
@@ -31,11 +30,11 @@
   "carousel": {
     "title1": "Designs",
     "title1-2": "Customized",
-    "subtitle1": "Our team has proven experience in the development of apps with the best user interface (UI), and ease and friendly navigation (UX)",
+    "subtitle1": "Our team of highly skilled designers works closely with you to understand your needs and goals, before creating prototypes and custom interface designs that are attractive and easy to use.",
     "title2": "Modern",
     "title2-2": "web design",
     "title2-3": "for your company!",
-    "subtitle2": "Our team has expertise in React, ReactNative, Vue, Flutter and Javascript, which are the tools through which we can modernize your web site or your app."
+    "subtitle2": "With our UI/UX design service, you can be sure that your digital product will be attractive, intuitive and effective. Whether you're starting a new project or need help improving an existing product, we're here to help you achieve your goals. Contact us today to learn more about how we can help you create an amazing digital product."
   },
   "payments": {
     "h1": "We Offer",
@@ -57,7 +56,7 @@
     "title": "Digitalize and",
     "title1-2": "modernize",
     "title1-3": "your company!",
-    "subtitle": "Feel free to consult us",
+    "subtitle": "Contact us today to learn more about how we can help you create an amazing digital product.",
     "contacttitle": "Contact us!",
     "contactsubtitle": "We are open to discusse your project, modernize the face of your company or help you develop your ideas"
   },

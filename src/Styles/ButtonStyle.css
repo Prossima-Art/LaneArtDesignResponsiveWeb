@@ -14,12 +14,10 @@
 }
 
 .BtnSecundary {
-    font-weight: bold !important;
+    font-weight: 400 !important;
     background: none;
     white-space: nowrap;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px 5px;
-    border: 1px solid #d500f9;
+    margin-top: 5px;
+    padding: 0px 0px;
+    border: none;
 }

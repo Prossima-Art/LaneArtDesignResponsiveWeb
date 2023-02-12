@@ -39,7 +39,6 @@ body{
 }
 
 .BtnSecundary{
-	background: #none;
 	color: #D500F9 !important;
 	cursor: pointer;
 	transition:1s;

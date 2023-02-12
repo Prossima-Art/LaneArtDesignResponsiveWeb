@@ -19,9 +19,7 @@
     "of": "de",
     "capaTitleDecoration": "Apps",
 
-    "capasubtitle": "¡Mostre el mejor",
-    "capasubtitle2": "escaparate para su",
-    "capasubtitle3": "empresa"
+    "capasubtitle": "Enfocados en ayudar a nuestros clientes a lograr sus objetivos y aprovechar al máximo la tecnología."
   },
 
   "text": {
@@ -32,11 +30,11 @@
   "carousel": {
     "title1": "Diseño",
     "title1-2": "Personalizado",
-    "subtitle1": "Nuestro equipo cuenta con una experiencia acreditada en el desarrollo de apps con la mejor interfase de usuario (UI) y la navegación más amigable (UX)",
+    "subtitle1": "Nuestro equipo de diseñadores altamente calificados trabaja en estrecha colaboración con usted para comprender sus necesidades y objetivos, antes de crear prototipos y diseños de interfaz personalizados que sean atractivos y fáciles de usar.",
     "title2": "Diseño web",
     "title2-2": "moderno",
     "title2-3": "para su empresa!",
-    "subtitle2": "Nuestro equipo es experto en React, ReactNative, Vue, Flutter y Javascript, que son las herramientas a través de las cuales podemos modernizar su sitio web."
+    "subtitle2": "Con nuestro servicio de diseño UI/UX puedes estar seguro de que tu producto digital será atractivo, intuitivo y efectivo. Ya sea que esté comenzando un nuevo proyecto o necesite ayuda para mejorar un producto existente, estamos aquí para ayudarlo a alcanzar sus objetivos. Contáctenos hoy para obtener más información sobre cómo podemos ayudarlo a crear un producto digital increíble."
   },
   "payments": {
     "h1": "Ofrecemos",
@@ -58,7 +56,7 @@
     "title": "Digitalize y",
     "title1-2": "modernize",
     "title1-3": "su empresa!",
-    "subtitle": "Consúltenos sin compromiso",
+    "subtitle": "Contáctenos hoy para obtener más información sobre cómo podemos ayudarlo a crear un producto digital increíble.",
 
     "contacttitle": "Contacte-nos!",
     "contactsubtitle": "Estamos abiertos a discutir tu proyecto, mejorar la presencia de tu empresa o ayudarte a desarrollar tus ideas"

@@ -49,15 +49,13 @@ export default function Capa() {
       <Container fluid className="backgoundcaroussel">
         <Row>
           <Col className="centralized mt-5" sx={12}>
-            <h1 className="cols-auto h1-md">
+            <h1 className="cols-auto h1-md titlefont">
               {t('Info.capaTitle')} {t('Info.capaTitlebr')} <br></br>
               {t('Info.of')}{' '}
-              <span id="textdecoration">{t('Info.capaTitleDecoration')}</span>
+              <span id="textdecoration" className='titlefont'>{t('Info.capaTitleDecoration')}</span>
             </h1>
-            <p className="cols-auto p-subtitle1 mt-5">
-              {t('Info.capasubtitle')} {t('Info.capasubtitle2')}{' '}
-              <span id="textdecoration">{t('Info.capasubtitle3')}</span>
-              {t('samllText')}
+            <p className="cols-auto p-subtitle1 textfont mt-5 ">
+              {t('Info.capasubtitle')}
             </p>
 
             <Row className="centralized margemtop">

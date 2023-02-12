@@ -19,9 +19,7 @@
     "of": "de",
     "capaTitleDecoration": "Apps",
 
-    "capasubtitle": "Mostre a melhor",
-    "capasubtitle2": "vitrine para sua",
-    "capasubtitle3": "empresa"
+    "capasubtitle": "Focados em ajudar nossos clientes a alcançar seus objetivos e aproveitar ao máximo as vantagens da tecnologia."
   },
 
   "text": {
@@ -32,11 +30,11 @@
   "carousel": {
     "title1": "Designs",
     "title1-2": "customizados",
-    "subtitle1": "Nosso time possui uma experencia acreditada no desenvolvimento de apps com a melhor interfase de usuário (UI) e a mais fácil navegação (UX)",
+    "subtitle1": "Nossa equipe de designers altamente capacitados trabalha em estreita colaboração com você para entender suas necessidades e objetivos, antes de criar protótipos e design de interface personalizados que sejam atraentes e fáceis de usar.",
     "title2": "Design web",
     "title2-2": "moderno",
     "title2-3": "para sua empresa!",
-    "subtitle2": "Nosso time é experto em React, ReactNative, Vue, Flutter e Javascript, que são as ferramentas através das quais podemos modernizar seu web site."
+    "subtitle2": "Com o nosso serviço de UI/UX design, você pode ter certeza de que o seu produto digital será atraente, intuitivo e eficaz. Não importa se você está iniciando um novo projeto ou precisa de ajuda para melhorar um produto existente, nós estamos aqui para ajudá-lo a alcançar seus objetivos. Entre em contato conosco hoje para saber mais sobre como podemos ajudá-lo a criar um produto digital incrível."
   },
   "payments": {
     "h1": "Oferecemos",
@@ -58,7 +56,7 @@
     "title": "Digitalize e",
     "title1-2": "modernize",
     "title1-3": "sua empresa!",
-    "subtitle": "Consulte-nos sem compromisso",
+    "subtitle": "Entre em contato conosco hoje para saber mais sobre como podemos ajudá-lo a criar um produto digital incrível.",
 
     "contacttitle": "Contacte-nos!",
     "contactsubtitle": "Estamos abertos a discutir seu projeto, melhorar a presença de sua empresa ou lhe ajudar a desenvolver suas ideias"

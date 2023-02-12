@@ -32,12 +32,12 @@ export function Text() {
   const { t } = useTranslation();
   return (
     <>
-      <h1 className="textbold textbox">
+      <h1 className="textbold textbox titlefont">
         {t("carousel.title1")}
-        <span id="textdecoration"> {t("carousel.title1-2")}</span>
+        <span id="textdecoration" className="titlefont"> {t("carousel.title1-2")}</span>
         {t("samllText")}
       </h1>
-      <p className="p-subtitle textbox">{t("carousel.subtitle1")}</p>
+      <p className="p-subtitle textbox textfont">{t("carousel.subtitle1")}</p>
     </>
   );
 }

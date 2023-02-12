@@ -61,8 +61,8 @@ export default function Grid() {
     <Container fluid className=" mt-5">
       <Row>
         <Col sm={12}>
-          <h1 className="textbold centralized">{t("payments.h1")}
-            <span id="textdecoration"> {t("payments.h1-2")}</span>
+          <h1 className="textbold centralized titlefont">{t("payments.h1")}
+            <span id="textdecoration" className="titlefont"> {t("payments.h1-2")}</span>
             {t("payments.h1-3")} {t("payments.h1-4")} {t("payments.h1-5")}
           </h1>
         </Col>
@@ -79,8 +79,8 @@ export default function Grid() {
                 }}
               />
             </div>
-            <p className="p-title centralized">{t("payments.title1")}</p>
-            <p className="p-subtitle centralized ">{t("payments.subtitle1")}</p>
+            <p className="p-title centralized textfont">{t("payments.title1")}</p>
+            <p className="p-subtitle centralized  textfont">{t("payments.subtitle1")}</p>
           </Col>
 
           <Col className="cards">
@@ -95,8 +95,8 @@ export default function Grid() {
               />
             </div>
 
-            <p className="p-title centralized">{t("payments.title2")}</p>
-            <p className="p-subtitle centralized ">{t("payments.subtitle2")}</p>
+            <p className="p-title centralized textfont">{t("payments.title2")}</p>
+            <p className="p-subtitle centralized textfont">{t("payments.subtitle2")}</p>
           </Col>
 
           <Col className="cards">
@@ -110,8 +110,8 @@ export default function Grid() {
                 }}
               />
             </div>
-            <p className="p-title centralized">{t("payments.title3")}</p>
-            <p className="p-subtitle centralized ">{t("payments.subtitle3")}</p>
+            <p className="p-title centralized textfont">{t("payments.title3")}</p>
+            <p className="p-subtitle centralized textfont">{t("payments.subtitle3")}</p>
           </Col>
 
           <Col className="cards">
@@ -125,8 +125,8 @@ export default function Grid() {
                 }}
               />
             </div>
-            <p className="p-title centralized">{t("payments.title4")}</p>
-            <p className="p-subtitle centralized ">{t("payments.subtitle4")}</p>
+            <p className="p-title centralized textfont">{t("payments.title4")}</p>
+            <p className="p-subtitle centralized textfont">{t("payments.subtitle4")}</p>
           </Col>
         </Row>
       </Row>
