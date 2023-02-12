@@ -61,14 +61,9 @@ export default function Grid() {
     <Container fluid className=" mt-5">
       <Row>
         <Col sm={12}>
-          <h1 className="textbold">
-            {t("payments.h1")}
+          <h1 className="textbold centralized">{t("payments.h1")}
             <span id="textdecoration"> {t("payments.h1-2")}</span>
-            {t("payments.h1-3")}
-            <br></br>
-            {t("payments.h1-4")}
-            <br></br>
-            {t("payments.h1-5")}
+            {t("payments.h1-3")} {t("payments.h1-4")} {t("payments.h1-5")}
           </h1>
         </Col>
 
