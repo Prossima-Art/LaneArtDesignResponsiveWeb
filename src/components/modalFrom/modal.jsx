@@ -85,7 +85,7 @@ export function ModalForm() {
     e.preventDefault();
     alert(`Thank you for your message. Your query has been forwarded.`);
     const templateId = "template_jgcc3vw";
-    const serviceID = "service_fcscug6";
+    const serviceID = "service_ityx1dr";
     sendFeedback(serviceID, templateId, {
       from_name: formData.name,
       message_html: formData.query,
