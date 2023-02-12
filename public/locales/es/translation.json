@@ -1,129 +1,121 @@
 {
-    "app_title": "lane Art Design",
-    "language": "Languages",
-    "nav_bar_Home": "Inicio",
-    "nav_bar_Price": "Precios",
-    "nav_bar_Portfolio": "Portfolio",
-    "samllText": "!",
+  "app_title": "lane Art Design",
+  "language": "Idiomas",
+  "nav_bar_Home": "Inicio",
+  "nav_bar_Price": "Precios",
+  "nav_bar_Portfolio": "Portfolio",
+  "samllText": "!",
 
-    "btn":{
-        "btn_Contact": "Contacto",
-        "btn_Price": "Precios",
-        "btn_Orcamento": "Presupuesto",
-        "btn_seemore": "Ver más"
-    },
+  "btn": {
+    "btn_Contact": "Contacto",
+    "btn_Price": "Precios",
+    "btn_Orcamento": "Presupuesto",
+    "btn_seemore": "Ver más"
+  },
 
-    "Info":{
-        "capaTitle": "Desarrollo y",
-        "capaTitlebr": "Diseño",
-        "of": "de",
-        "capaTitleDecoration": "Apps",
+  "Info": {
+    "capaTitle": "Desarrollo y",
+    "capaTitlebr": "Diseño",
+    "of": "de",
+    "capaTitleDecoration": "Apps",
 
-        "capasubtitle": "¡Mostre el mejor",
-        "capasubtitle2": "escaparate para su",
-        "capasubtitle3": "empresa"
-       
+    "capasubtitle": "¡Mostre el mejor",
+    "capasubtitle2": "escaparate para su",
+    "capasubtitle3": "empresa"
+  },
 
-    },
+  "text": {
+    "textPlayIcon": "Siga nuestros",
+    "textPlayIcon2": "proyectos"
+  },
 
-    "text":{
-        "textPlayIcon": "Siga nuestros",
-        "textPlayIcon2": "Proyectos"
-    },
+  "carousel": {
+    "title1": "Diseño",
+    "title1-2": "Personalizado",
+    "subtitle1": "Nuestro equipo cuenta con una experiencia acreditada en el desarrollo de apps con la mejor interfase de usuario (UI) y la navegación más amigable (UX)",
+    "title2": "Diseño web",
+    "title2-2": "moderno",
+    "title2-3": "para su empresa!",
+    "subtitle2": "Nuestro equipo es experto en React, ReactNative, Vue, Flutter y Javascript, que son las herramientas a través de las cuales podemos modernizar su sitio web."
+  },
+  "payments": {
+    "h1": "Ofrecemos",
+    "h1-2": "flexibilidad",
+    "h1-3": " además de",
+    "h1-4": "varias formas de",
+    "h1-5": "pago!",
+    "title1": "Plazo de entrega",
+    "title2": "Los mejores descuentos",
+    "title3": "12 veces sin intereses",
+    "title4": "¿Quieres un descuento extra?",
+    "subtitle1": "Los mejores plazos para que no tengas que esperar tanto tiempo para conseguir tu producto",
+    "subtitle2": "Aceptamos pagos en cripto",
+    "subtitle3": "Pague en cómodas prestaciones",
+    "subtitle4": "5% de descuento en compras en efectivo"
+  },
 
-    "carousel": {
-        "title1": "Diseño",
-        "title1-2":"Personalizado",
-        "subtitle1": "Nuestro equipo cuenta con una experiencia acreditada en el desarrollo de apps con la mejor interfase de usuario (UI) y la navegación más fácil (UX)",
-        "title2":"Diseño web",
-        "title2-2":"moderno",
-        "title2-3":"para su empresa!",
-        "subtitle2":"Nuestro equipo es experto en React, Flutter y Javascript, que son las herramientas a través de las cuales podemos modernizar su sitio web."
-    },
-    "payments":{
-        "h1":"Ofrecemos",
-        "h1-2":"flexibilidad",
-        "h1-3":", además de",
-        "h1-4":"varias formas de",
-        "h1-5":"pago!",
-        "title1":"Plazo de entrega",
-        "title2":"Los mejores descuentos",
-        "title3":"12 veces sin intereses",
-        "title4":"¿Quieres un descuento?",
-        "subtitle1":"Los mejores plazos para ti que no quieres esperar tanto tiempo por tu producto",
-        "subtitle2":"Aceptamos pagos en cripto",
-        "subtitle3":"Divida el pago de compras en todas tus tarjetas",
-        "subtitle4":"5% de descuento, en compras en efectivo o en deuda"
-    },
+  "contact": {
+    "title": "Digitalize y",
+    "title1-2": "modernize",
+    "title1-3": "su empresa!",
+    "subtitle": "Consúltenos sin compromiso",
 
-    "contact":{
-        "title":"Digitalize y",
-        "title1-2":"modernize",
-        "title1-3":"su empresa!",
-        "subtitle":"Consúltenos sin compromiso",
+    "contacttitle": "Contacte-nos!",
+    "contactsubtitle": "Estamos abiertos a discutir tu proyecto, mejorar la presencia de tu empresa o ayudarte a desarrollar tus ideas"
+  },
 
-        "contacttitle": "Contacte-nos!",
-        "contactsubtitle": "Estamos abiertos a discutir tu proyecto, mejorar la presencia de tu empresa o ayudarte a desarrollar tus ideas"
+  "avaliations": {
+    "title": "Ver",
+    "title1-2": "reseñas",
+    "title1-3": "de nuestros clientes!"
+  },
 
-    },
+  "footer": {
+    "title": "© Todos los derechos reservados,"
+  },
 
-    "avaliations":{
-        "title":"Ver",
-        "title1-2":"reseñas",
-        "title1-3":"de nuestros clientes!"
-    },
+  "portfolio": {
+    "title": "Hola, somos",
+    "title1-2": "Lane Art Design",
+    "subtitle": "Somos expertos en diseño y en desarrollo web y aplicaciones. Utilizamos todas las últimas novedades y herramientas para modernizar y dar forma a sus ideas."
+  },
 
-    "footer":{
-        "title": "© todos los derechos reservados,"
-    },
+  "Rewards": {
+    "title": "15 Nacional",
+    "title2": "1500+ Feliz",
+    "title3": "2700+ Les gusta",
+    "subtitle": "Premios",
+    "subtitle2": "Clientela",
+    "subtitle3": "Votos"
+  },
 
-    "portfolio":{
-        "title": "Hola, somos",
-        "title1-2": "Lane Art Design",
-        "subtitle": "Somos expertos en diseño y desarrollo web y de aplicaciones. Utilizamos todas las herramientas modernas para modernizar y dar forma a sus ideas."
-    },
+  "pricesection": {
+    "title": "Nuestros paquetes de servicios",
+    "subtitle": "¿Qué le pasa a su empresa? ¿Solo necesita rejuvenecer su rostro sin cambiar el código? ¿O puede continuar con su misma cara y simplemente debe mejorar su código? ¿Necesita cambiarlo todo?"
+  },
 
-    "Rewards":{
-        "title":"15 Nacional",
-        "title2":"1500+ Feliz",
-        "title3":"2700+ Les gustam",
-        "subtitle": "Premios",
-        "subtitle2": "Clientela",
-        "subtitle3": "Votos"
+  "packages": {
+    "Desing": "Paquete de diseño",
+    "Dev": "Paquete Dev",
+    "Expert": "Paquete Expert",
+    "item1": "Design System",
+    "item2": "Ilustraciones",
+    "item3": "Animaciones",
+    "item4": "Dev Front-End",
+    "item5": "Dev Back-End",
+    "item6": "Base de Datos"
+  },
+  "modal": {
+    "title": "Contacto",
+    "nameLabel": "Su nombre*",
+    "name": "Escriba su nombre",
+    "emailLabel": "E-mail*",
+    "email": "Escriba su correo",
+    "text": "Cuéntenos!*",
+    "btnsend": "Enviar"
+  },
 
-    },
-
-    "pricesection":{
-        "title":"Nuestros paquetes de servicios",
-        "subtitle":"¿Qué le pasa a su empresa? ¿Solo necesita rejuvenecer su rostro sin cambiar el código? ¿O puede continuar con su cara y simplemente cambiar su código? ¿Necesita cambiarlo todo?"
-    },
-
-    "packages":{
-        "Desing":"Paquete de diseño",
-        "Dev":"Paquete Dev",
-        "Expert":"Paquete Expert",
-        "item1":"Design System",
-        "item2":"Ilustraciones",
-        "item3":"Animaciones",
-        "item4":"Dev Front-End",
-        "item5":"Dev Back-End",
-        "item6":"Base de Datos"
-    },
-    "modal":{
-        "title":"Contacto",
-        "nameLabel": "Su nombre*",
-        "name": "Escriba su nombre",
-        "emailLabel":"E-mail*",
-        "email":"Escriba su correo",
-        "text": "¡Dinos!*",
-        "btnsend": "Enviar"
-    },
-
-    "error":{
-        "title":"No podemos encontrar la página que está buscando."
-    }
-
-
-    }
-    
-  
+  "error": {
+    "title": "Lo siento. No encontramos la página que está buscando."
+  }
+}
