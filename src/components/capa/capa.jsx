@@ -91,9 +91,9 @@ export default function Capa() {
                   >
                     <img className="IconPlay" src={IconPlay} alt="Icon" />
                     <motion.p
-                      initial={{ x: 100 }}
+                      initial={{ x: 50 }}
                       animate={{ x: 0 }}
-                      transition={{ duration: 1, delay: 1 }}
+                      transition={{ duration: 0.5, delay: 0 }}
                       className="textIcon"
                     >
                       {t('text.textPlayIcon')}
