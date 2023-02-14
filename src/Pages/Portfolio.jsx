@@ -3,7 +3,8 @@ import {GlobalStyle} from '../Styles/GlobalStyles';
 import '../App.css';
 
 import NavBar from '../components/navBar/index';
-import ContactGrid from '../components/contactIcons/contactIconsGrid';
+// import ContactGrid from '../components/contactIcons/contactIconsGrid';
+import {Contactsection} from '../components/contactsection';
 import Portfolioinfogrid from '../components/portfolioInfogrid/portfolioinfogrid';
 import {ProjectsGrid, RewardsGrid} from '../components/portfolioInfogrid/projects';
 import Footer from '../components/footer/footer';
@@ -18,7 +19,8 @@ function Portfolio() {
 			<Portfolioinfogrid/>
 			<ProjectsGrid/>
 			<RewardsGrid />
-			<ContactGrid/>
+			{/* <ContactGrid/> */}
+			<Contactsection />
 			<ScrollToTop/>
 			<Footer />
 			

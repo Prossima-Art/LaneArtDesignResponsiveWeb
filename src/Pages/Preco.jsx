@@ -6,8 +6,9 @@ import NavBar from '../components/navBar/index';
 
 //___import text
 
-import ContactGrid from '../components/contactIcons/contactIconsGrid';
+// import ContactGrid from '../components/contactIcons/contactIconsGrid';
 import Grid from '../components/grid.jsx';
+import {Contactsection} from '../components/contactsection';
 import {Gridprice, InfoTituloBuy } from '../components/pricegrid/pricegrid';
 import Footer from '../components/footer/footer';
 import ScrollToTop from "../components/scrollToTop/scrollToTop";
@@ -21,7 +22,8 @@ function Preco() {
 			<InfoTituloBuy/>
 			<Gridprice/>
 			<Grid/>
-			<ContactGrid/>
+			{/* <ContactGrid/> */}
+			<Contactsection />
 			<ScrollToTop/>
 			<Footer />
 			
