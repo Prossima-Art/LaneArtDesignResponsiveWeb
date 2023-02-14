@@ -26,65 +26,43 @@ import Cube from "./imgPortfolio/cubes-icon.svg";
 export function ProjectsGrid() {
   return (
     <>
-    <Container>
-        <Row className="sizeprojects" >
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb10} className="mb-2 hover" alt="..." />
-            <img src={Tumb11} className="mb-2 hover" alt="..." />
-            <img src={Tumb12} className="mb-2 hover" alt="..." />
+      <Container>
+        <Row className="sizeprojects" sm={4} md={12} lg={12}>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb10} className="hover" alt="..." />
           </Col>
-          </Row>
-          <Row>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb1} className="mb-2 hover" alt="..." />
-            <img src={Tumb2} className="mb-2 hover" alt="..." />
-            <img src={Tumb3} className="mb-2 hover" alt="..." />
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb11} className="hover" alt="..." />
           </Col>
-          </Row>
-          <Row>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb4} className="mb-2 hover" alt="..." />
-            <img src={Tumb5} className="mb-2 hover" alt="..." />
-            <img src={Tumb6} className="mb-2 hover" alt="..." />
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb12} className="hover" alt="..." />
           </Col>
-          </Row>
-          <Row>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb7} className="mb-2 hover" alt="..." />
-            <img src={Tumb8} className="mb-2 hover" alt="..." />
-            <img src={Tumb9} className="mb-2 hover" alt="..." />
+        </Row>
+
+        <Row className="sizeprojects" sm={4} md={12} lg={12}>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb1} className="hover" alt="..." />
+          </Col>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb2} className="hover" alt="..." />
+          </Col>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb3} className="hover" alt="..." />
+          </Col>
+        </Row>
+
+        <Row className="sizeprojects" sm={4} md={12} lg={12}>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb4} className="hover" alt="..." />
+          </Col>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb5} className="hover" alt="..." />
+          </Col>
+          <Col sm={4} className="TumbProjects">
+            <img src={Tumb6} className="hover" alt="..." />
           </Col>
         </Row>
       </Container>
-
-
-
-
-
-      {/* <Container>
-        <Row className="sizeprojects">
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb10} className="mb-2 hover" alt="..." />
-            <img src={Tumb1} className="mb-2 hover" alt="..." />
-            <img src={Tumb4} className="mb-2 hover" alt="..." />
-          </Col>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb11} className="mb-2 hover" alt="..." />
-            <img src={Tumb2} className="mb-2 hover" alt="..." />
-            <img src={Tumb3} className="mb-2 hover" alt="..." />
-          </Col>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb12} className="mb-2 hover" alt="..." />
-            <img src={Tumb5} className="mb-2 hover" alt="..." />
-            <img src={Tumb6} className="mb-2 hover" alt="..." />
-          </Col>
-          <Col sm="auto" lg={4} className="TumbProjects">
-            <img src={Tumb7} className="mb-2 hover" alt="..." />
-            <img src={Tumb8} className="mb-2 hover" alt="..." />
-            <img src={Tumb9} className="mb-2 hover" alt="..." />
-          </Col>
-        </Row>
-      </Container> */}
     </>
   );
 }

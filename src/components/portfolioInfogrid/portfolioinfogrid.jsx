@@ -18,7 +18,7 @@ export default function Portfolioinfogrid() {
 								<h1 className="h1-md mt-5 titlefont"> {t('portfolio.title')} <span id= "textdecoration" className='titlefont'>{t('portfolio.title1-2')}</span></h1>
 								<p className="p-subtitle textbox textfont ">{t('portfolio.subtitle')}</p>
 								</Col>
-								<Col className="banner mr-0" sm={12} md={6}><BannerSvg ></BannerSvg></Col>
+								<Col className="banner mr-0" sm={6}><BannerSvg ></BannerSvg></Col>
 						  </Row>
 
 			</Container>
