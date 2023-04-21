@@ -3,7 +3,7 @@
 <circle cx="112.5" cy="112.5" r="112.5" fill="#230B34"/>
 </mask>
 <g mask="url(#mask0_291_1429)">
-<circle cx="112.5" cy="112.5" r="112.5" fill="#D500F9"/>
+<circle cx="112.5" cy="112.5" r="112.5" fill="#762CE6"/>
 <g clip-path="url(#clip0_291_1429)">
 <path d="M111.408 143.265C129.002 143.265 143.265 129.002 143.265 111.408C143.265 93.8138 129.002 79.551 111.408 79.551C93.8139 79.551 79.5511 93.8138 79.5511 111.408C79.5511 129.002 93.8139 143.265 111.408 143.265Z" stroke="white" stroke-width="12.7427" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M111.408 41.3237V54.0664" stroke="white" stroke-width="12.7427" stroke-linecap="round" stroke-linejoin="round"/>

@@ -27,19 +27,19 @@ body{
 	color: #000;
 }
 .BtnPrimary{
-	background: #D500F9;
+	background: #762CE6;
 	color: white !important;
 	transition:1s;
 		
 		&:hover{
-			background-color: #D500F9;
+			background-color: #762CE6;
 			transform: translateY(-10%);
 		}
 	
 }
 
 .BtnSecundary{
-	color: #D500F9 !important;
+	color: #762CE6 !important;
 	cursor: pointer;
 	transition:1s;
 		
@@ -109,7 +109,7 @@ body{
 	}
 
 	.BtnSecundary{
-		color: #D500F9 !important;
+		color: #762CE6 !important;
 	}
 	
 	.cards{
