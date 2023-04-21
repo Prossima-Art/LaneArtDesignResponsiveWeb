@@ -24,7 +24,7 @@
 
 .content-carrousel figure {
   width: 100%;
-  height: 250%;
+  height: 21.875rem;
   position: absolute;
   transition: all 300ms;
   
