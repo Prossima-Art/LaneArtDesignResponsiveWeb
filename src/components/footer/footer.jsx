@@ -30,11 +30,11 @@ export default function Footer() {
 					</Col> */}
 					<Col sm={4}>
 						<a href="https://www.instagram.com/prossima_art/" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
-						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
+						<a href="https://www.linkedin.com/company/prossima-art/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
 
 						<a href="https://wa.me/qr/UDY4VLUBEXE7C1" target="_blank"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>
 
-						<a href="mailto: laneartdigital@gmail.com" target="_blank"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
+						<a href="mailto:prossima.art@gmail.com" target="_blank"><img className="imgcontact m-2" src={Email} alt="Instagram Adress" /></a>
 
 					</Col>
 
