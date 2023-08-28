@@ -29,7 +29,7 @@ export default function Footer() {
 						<Link className="m-3 color" target='_top' to="/portfolio">{t('nav_bar_Portfolio')}</Link>
 					</Col> */}
 					<Col sm={4}>
-						<a href="https://www.instagram.com/laneartdesign/?hl=en" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
+						<a href="https://www.instagram.com/prossima_art/" target="_blank"><img className="imgcontact m-2" src={Instagram} alt="Instagram Account" /></a>
 						<a href="https://www.linkedin.com/company/lane-art-design/?viewAsMember=true" target="_blank"><img className="imgcontact m-2" src={Linkedin} alt="Linkedin Account" /></a>
 
 						<a href="https://wa.me/qr/UDY4VLUBEXE7C1" target="_blank"><img className="imgcontact m-2" src={WhatsApp} alt="WhatsApp Number" /></a>

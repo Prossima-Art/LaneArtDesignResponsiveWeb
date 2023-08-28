@@ -10,14 +10,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import React, { useEffect } from 'react';
 
 import { BtnTheme } from './style.jsx'
-import Button from 'react-bootstrap/Button';
 // import Styles
-import { GlobalStyle } from '../../Styles/GlobalStyles';
-import LanguageDetector from 'i18next-browser-languagedetector';
 import { Link } from 'react-router-dom';
 // import Logo
 import { Logo } from '../../Styles/logoHeader';
-import { ModalContato } from '../modalFrom/modal'
 import classNames from 'classnames'
 import cookies from 'js-cookie';
 import i18next from 'i18next';
@@ -68,9 +64,9 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar className="navbar" expand="sm">
+      <Navbar className="navbar" expand="md">
         <Container fluid >
-          <Navbar.Brand href="#action1"><Logo /> </Navbar.Brand>
+          <Navbar.Brand href="#/"><Logo /> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -127,9 +123,7 @@ export default function NavBar() {
 
             <BtnTheme />
             </div>
-            <ModalContato>
-              <button className="BtnPrimary">{t('btn.btn_Contact')}</button>
-            </ModalContato>
+            
             </div>
           </Navbar.Collapse>
 
