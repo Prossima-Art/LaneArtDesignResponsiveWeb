@@ -3,7 +3,7 @@
   "language": "Languages",
   "nav_bar_Home": "Home",
   "nav_bar_Price": "Prices",
-  "nav_bar_Portfolio": "Portfolio",
+  "nav_bar_Portfolio": "Solutions",
   "samllText": "!",
 
   "btn": {
@@ -14,12 +14,11 @@
   },
 
   "Info": {
-    "capaTitle": "Development and",
-    "capaTitlebr": "Design",
-    "of": "of",
-    "capaTitleDecoration": "Apps",
-    "capasubtitle": "Focused on helping our customers achieve their goals and take full advantage of technology."
-
+    "capaTitle": "Innovations in ",
+    "of": "Design, web development,",
+    "capaTitlebr": "IA e ML",
+    "capaTitleDecoration": "for B2B",
+    "capasubtitle": "Turning ideas into reality with intuitive design, powerful applications and virtual intelligence powered by machine learning."
   },
 
   "text": {

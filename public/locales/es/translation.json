@@ -3,7 +3,7 @@
   "language": "Idiomas",
   "nav_bar_Home": "Inicio",
   "nav_bar_Price": "Precios",
-  "nav_bar_Portfolio": "Portfolio",
+  "nav_bar_Portfolio": "Soluciones",
   "samllText": "!",
 
   "btn": {
@@ -14,12 +14,11 @@
   },
 
   "Info": {
-    "capaTitle": "Desarrollo y",
-    "capaTitlebr": "Diseño",
-    "of": "de",
-    "capaTitleDecoration": "Apps",
-
-    "capasubtitle": "Enfocados en ayudar a nuestros clientes a lograr sus objetivos y aprovechar al máximo la tecnología."
+    "capaTitle": "Innovaciones en ",
+    "of": "Diseño, desarrollo web,",
+    "capaTitlebr": "IA e ML",
+    "capaTitleDecoration": "for B2B",
+    "capasubtitle": "Convertir ideas en realidad con diseño intuitivo, aplicaciones potentes e inteligencia virtual impulsada por el aprendizaje automático."
   },
 
   "text": {
