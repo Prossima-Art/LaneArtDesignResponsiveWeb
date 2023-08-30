@@ -14,9 +14,9 @@ export const AnimatedGrid2 = () => {
       <Container fluid className="mt-5 centralized ">
         <Row className="m-0 p-0">
           <Col lg={12}>
-            <h1 className="textbold titlefont">
+            <h1 className="textBold titlefont">
               {t("carousel.title2")}
-              <span id="textdecoration" className="titlefont"> {t("carousel.title2-2")} </span>{" "}
+              <span id="textDecoration" className="titlefont"> {t("carousel.title2-2")} </span>{" "}
               {t("carousel.title2-3")}
             </h1>
             <p className="p-subtitle textfont textfont">{t("carousel.subtitle2")}</p>

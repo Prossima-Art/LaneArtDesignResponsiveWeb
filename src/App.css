@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
 
 
-.textfont{
+.textFont{
   font-family: "Inter", sans-serif;
 }
 
@@ -42,7 +42,7 @@ a:-webkit-any-link {
   border-radius: 100%;
 }
 
-.lottiecard {
+.lottieCard {
   display: flex;
   width: 140px;
   height: 140px;
@@ -53,7 +53,7 @@ a:-webkit-any-link {
   border-radius: 100%;
 }
 
-.lottieimg svg {
+.lottieImg svg {
   align-items: center !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -84,14 +84,14 @@ a:-webkit-any-link {
   opacity: 0.35;
 }
 
-.textbold {
+.textBold {
   padding-bottom: 10px;
   font-weight: bold;
   font-size: 200%;
   line-height: 100%;
 }
 
-#textdecoration {
+#textDecoration {
   color: #762CE6 !important;
 }
 

@@ -30,9 +30,9 @@ export function Text() {
   const { t } = useTranslation();
   return (
     <>
-      <h1 className="textbold textbox titlefont ">
+      <h1 className="textBold textbox titlefont ">
         {t("carousel.title1")}
-        <span id="textdecoration" className="titlefont">
+        <span id="textDecoration" className="titlefont">
           {" "}
           {t("carousel.title1-2")}
         </span>

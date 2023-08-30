@@ -12,9 +12,9 @@ export const Contactsection = () => {
       <Container className="mt-5">
         <Row className="centralized">
           <Col md="auto">
-            <h1 className="textbold titlefont">
+            <h1 className="textBold titlefont">
               {t("contact.title")}{" "}
-              <span id="textdecoration" className="titlefont">{t("contact.title1-2")}</span>{" "}
+              <span id="textDecoration" className="titlefont">{t("contact.title1-2")}</span>{" "}
               {t("contact.title1-3")}
             </h1>
             <p className="p-subtitle centralized textfont">
@@ -24,7 +24,7 @@ export const Contactsection = () => {
             <Row className="centralized">
               <Col md="auto">
                 <ModalContato>
-                  <button className="BtnSecundary">
+                  <button className="BtnSecondary">
                     {t("btn.btn_Contact")}
                   </button>
                 </ModalContato>
