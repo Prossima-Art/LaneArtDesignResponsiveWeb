@@ -20,7 +20,7 @@ export default function ContactGrid() {
       <Container fluid className="mt-5 mb-5">
         <Row className="centralized">
           <Col sm={12}>
-            <h1 className="textbold titlefont"> {t("contact.contacttitle")}</h1>{" "}
+            <h1 className="textBold titlefont"> {t("contact.contacttitle")}</h1>{" "}
           </Col>
           <Col sm={12} className="sizebox">
             <p className="p-subtitle textfont">{t("contact.contactsubtitle")}</p>{" "}

@@ -11,6 +11,10 @@
     ],
     "i18n-ally.localesPaths": [
         "public/locales"
+    ],
+    "cSpell.words": [
+        "contactsection",
+        "titlefont"
     ]
 
 }

@@ -58,7 +58,7 @@ body{
 	.textIcon{
 		color: #000 !important;
 	}
-	.textbold{
+	.textBold{
 		color: #000 !important;
 	}
 
@@ -123,7 +123,7 @@ body{
 	.textIcon{
 		color: #fff !important;
 	}
-	.textbold{
+	.textBold{
 		color: #fff !important;
 	}
 

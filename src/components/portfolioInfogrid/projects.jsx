@@ -76,7 +76,7 @@ export function RewardsGrid() {
         <Row className="rewards">
           <Col className="alingleft col-auto mt-3">
             <img src={Star} alt="..." />
-            <h1 className="textbold mt-2">{t("Rewards.title")}</h1>
+            <h1 className="textBold mt-2">{t("Rewards.title")}</h1>
             <h1 className="p-subtitle mb-3">{t("Rewards.subtitle")}</h1>
           </Col>
 
@@ -86,7 +86,7 @@ export function RewardsGrid() {
 
           <Col className="alingleft col-auto mt-3">
             <img src={Cube} alt="..." />
-            <h1 className="textbold mt-2">{t("Rewards.title2")}</h1>
+            <h1 className="textBold mt-2">{t("Rewards.title2")}</h1>
             <h1 className="p-subtitle mb-3">{t("Rewards.subtitle2")}</h1>
           </Col>
 
@@ -97,7 +97,7 @@ export function RewardsGrid() {
           <Col className="alingleft col-auto mt-3">
             <img src={Heart} alt="..." />
             <Col>
-              <h1 className="textbold mt-2">{t("Rewards.title3")}</h1>
+              <h1 className="textBold mt-2">{t("Rewards.title3")}</h1>
               <h1 className="p-subtitle mb-3">{t("Rewards.subtitle3")}</h1>
             </Col>
           </Col>

@@ -9,8 +9,6 @@ import Grid from "../components/grid.jsx";
 import AnimatedGrid from "../components/animatedGrid";
 import { AnimatedGrid2 } from "../components/animatedGrid2";
 import { Contactsection } from "../components/contactsection";
-
-// import {SNcards} from '../components/SNcards/SNcards';
 import Footer from "../components/footer/footer";
 
 import Capa from "../components/capa/capa.jsx";

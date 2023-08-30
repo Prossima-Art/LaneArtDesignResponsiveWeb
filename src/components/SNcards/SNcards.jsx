@@ -20,7 +20,7 @@ export function SNcards() {
 				<Container fluid className="principal mt-5 mb-5">
 					<Row className="mb-5 centralized">
 						<Col md="auto">
-						<h1 className="textbold mt-5 " > {t('avaliations.title')} <span id= "textdecoration"> {t('avaliations.title1-2')} </span> {t('avaliations.title1-3')}</h1>
+						<h1 className="textBold mt-5 " > {t('avaliations.title')} <span id= "textDecoration"> {t('avaliations.title1-2')} </span> {t('avaliations.title1-3')}</h1>
 						</Col>
 					</Row>
 				  <Row className="teste mt-3 animationX">

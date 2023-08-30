@@ -57,9 +57,7 @@ export default function NavBar() {
   const { t } = useTranslation()
 
   useEffect(() => {
-    console.log('Setting page stuff')
     document.title = t('app_title')
-    console.log(document.title)
   }, [currentLanguage, t])
 
   return (
@@ -74,59 +72,51 @@ export default function NavBar() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-             <Link className="color margin" to="/">{t('nav_bar_Home')} </Link>
-             {/* <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link> */}
-             <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
+              <Link className="color margin" to="/">{t('nav_bar_Home')} </Link>
+              {/* <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link> */}
+              <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
             </Nav>
-
             <div className='butonsCol'>
-
-            <div className='dropdownCol'>
-
-            <div className="dropdown">
-              <button
-                className="btn btn-link dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <GlobeIcon />
-
-              </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><span className="dropdown-item-text">{t('language')}</span>
-                </li>
-                {languages.map(({ code, name, country_code }) => (
-                  <li key={country_code}>
-                    <a href="#"
-                      className={classNames('dropdown-item', {
-                        desabled: currentLanguageCode === code,
-                      })}
-                      onClick={() => {
-                        i18next.changeLanguage(code)
-                      }}
-                    >
-                      <span
-                        className={`flag-icon flag-icon-${country_code} mx-2`}
-                        style={{
-                          opacity: currentLanguageCode === code ? 0.5 : 1,
-                        }}
-                      ></span>
-                      {name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-
-            <BtnTheme />
-            </div>
-            
+              <div className='dropdownCol'>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-link dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <GlobeIcon />
+                  </button>
+                  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><span className="dropdown-item-text">{t('language')}</span>
+                    </li>
+                    {languages.map(({ code, name, country_code }) => (
+                      <li key={country_code}>
+                        <a href="#"
+                          className={classNames('dropdown-item', {
+                            desabled: currentLanguageCode === code,
+                          })}
+                          onClick={() => {
+                            i18next.changeLanguage(code)
+                          }}
+                        >
+                          <span
+                            className={`flag-icon flag-icon-${country_code} mx-2`}
+                            style={{
+                              opacity: currentLanguageCode === code ? 0.5 : 1,
+                            }}
+                          ></span>
+                          {name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <BtnTheme />
+              </div>
             </div>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
 

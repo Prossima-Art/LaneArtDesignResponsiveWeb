@@ -90,8 +90,6 @@ export function ModalForm() {
       message_html: formData.query,
       email: formData.email,
     });
-
-    console.log(formData);
   };
 
   const sendFeedback = (serviceID, templateId, variables) => {

@@ -1,4 +1,4 @@
-.scrollcards {
+.scrollCards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6,7 +6,7 @@
   align-items: center;
   overflow-x: hidden;
 }
-.scrollcards img {
+.scrollCards img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -23,6 +23,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-150px * 10));
+    transform: translateX(calc(-9.375rem * 10));
   }
 }
