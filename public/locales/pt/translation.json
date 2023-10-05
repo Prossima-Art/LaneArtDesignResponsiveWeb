@@ -3,7 +3,7 @@
   "language": "Idiomas",
   "nav_bar_Home": "Inicio",
   "nav_bar_Price": "Preços",
-  "nav_bar_Portfolio": "Soluções",
+  "nav_bar_Portfolio": "Projetos",
   "samllText": "!",
 
   "btn": {
@@ -15,10 +15,9 @@
 
   "Info": {
     "capaTitle": "Inovações em ",
-    "of": "Design, desenvolvimento web,",
-    "capaTitlebr": "AI e ML",
-    "capaTitleDecoration": "para B2B",
-    "capasubtitle": "Transformando ideias em realidade com design intuitivo, aplicações poderosas e inteligência artificial impulsionada por machine learning."
+    "of": "desenvolvimento web",
+    "capaTitleDecoration": "para empresas",
+    "capasubtitle": "Transformando ideias em realidade com aplicações poderosas e intuitivas."
   },
 
   "text": {
@@ -30,10 +29,10 @@
     "title1": "Designs",
     "title1-2": "customizados",
     "subtitle1": "Nossa equipe de designers altamente capacitados trabalha em estreita colaboração com você para entender suas necessidades e objetivos, antes de criar protótipos e design de interface personalizados que sejam atraentes e fáceis de usar.",
-    "title2": "Design web",
-    "title2-2": "moderno",
+    "title2": "páginas web",
+    "title2-2": "modernas",
     "title2-3": "para sua empresa!",
-    "subtitle2": "Com o nosso serviço de UI/UX design, você pode ter certeza de que o seu produto digital será atraente, intuitivo e eficaz. Não importa se você está iniciando um novo projeto ou precisa de ajuda para melhorar um produto existente, nós estamos aqui para ajudá-lo a alcançar seus objetivos. Entre em contato conosco hoje para saber mais sobre como podemos ajudá-lo a criar um produto digital incrível."
+    "subtitle2": "Com o nosso serviço de desenvolvimento, você pode ter certeza de que o seu produto digital será atraente, intuitivo e eficaz. Não importa se você está iniciando um novo projeto ou precisa de ajuda para melhorar um produto existente, nós estamos aqui para ajudá-lo a alcançar seus objetivos. Entre em contato conosco hoje para saber mais sobre como podemos ajudá-lo a criar um produto digital incrível."
   },
   "payments": {
     "h1": "Oferecemos",

@@ -3,7 +3,7 @@
   "language": "Languages",
   "nav_bar_Home": "Home",
   "nav_bar_Price": "Prices",
-  "nav_bar_Portfolio": "Solutions",
+  "nav_bar_Portfolio": "Projects",
   "samllText": "!",
 
   "btn": {
@@ -15,10 +15,9 @@
 
   "Info": {
     "capaTitle": "Innovations in ",
-    "of": "Design, web development,",
-    "capaTitlebr": "AI and ML",
-    "capaTitleDecoration": "for B2B",
-    "capasubtitle": "Turning ideas into reality with intuitive design, powerful applications and artificial intelligence powered by machine learning."
+    "of": "web development",
+    "capaTitleDecoration": "for companies",
+    "capasubtitle": "Turning ideas into reality with powerful and intuitive applications."
   },
 
   "text": {
@@ -31,9 +30,9 @@
     "title1-2": "Customized",
     "subtitle1": "Our team of highly skilled designers works closely with you to understand your needs and goals, before creating prototypes and custom interface designs that are attractive and easy to use.",
     "title2": "Modern",
-    "title2-2": "web design",
+    "title2-2": "web pages",
     "title2-3": "for your company!",
-    "subtitle2": "With our UI/UX design service, you can be sure that your digital product will be attractive, intuitive and effective. Whether you're starting a new project or need help improving an existing product, we're here to help you achieve your goals. Contact us today to learn more about how we can help you create an amazing digital product."
+    "subtitle2": "With our development service, you can be sure that your digital product will be attractive, intuitive and effective. Whether you're starting a new project or need help improving an existing product, we're here to help you achieve your goals. Contact us today to learn more about how we can help you create an amazing digital product."
   },
   "payments": {
     "h1": "We Offer",
@@ -71,9 +70,9 @@
   },
 
   "portfolio": {
-    "title": "Hello, we are",
-    "title1-2": "Prossima.Art",
-    "subtitle": "We are experts in design, and in apps and web development. We use all modern tools to modernize and shape your ideas."
+    "title": "Driving Business Growth through Powerful Website Development Solutions",
+
+    "subtitle": "We work closely with you to understand your unique needs and objectives, and then create custom websites that are visually appealing, user-friendly, and fully functional."
   },
 
   "Rewards": {
