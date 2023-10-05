@@ -5,7 +5,6 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { GlobalStyle } from "./Styles/GlobalStyles";
 
 import Inicio from "./Pages/Inicio.jsx";
-// import Preco from "./Pages/Preco.jsx";
 import Portfolio from "./Pages/Portfolio.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 

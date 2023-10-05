@@ -1,27 +1,46 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import { useTranslation } from 'react-i18next';
-import {Container,Row,Col} from 'react-bootstrap';
-import {BannerSvg} from './bannersvg.jsx'
-import './portfolio.css'
-
-
+import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import { useTranslation } from "react-i18next";
+import { Container, Row, Col } from "react-bootstrap";
+import { BannerSvg } from "./bannersvg.jsx";
+import "./portfolio.css";
 
 export default function Portfolioinfogrid() {
-
-	const {t}= useTranslation();
+  const { t } = useTranslation();
   return (
-		<>
-				  <Container fluid className="mr-0 mt-5">
-						  <Row className="mr-0">
-								<Col className="mr-0" sm={12} md={6} >
-								<h1 className="h1-md mt-5 titlefont"> {t('portfolio.title')} <span id= "textdecoration" className='titlefont'>{t('portfolio.title1-2')}</span></h1>
-								<p className="p-subtitle textbox textfont ">{t('portfolio.subtitle')}</p>
-								</Col>
-								<Col className="banner mr-0" sm={6}><BannerSvg ></BannerSvg></Col>
-						  </Row>
-
-			</Container>
-		</>
-  )
+    <>
+      <Container fluid className="mt-5 mx-5">
+        <Row style={{ maxWidth: "90%" }}>
+          <Col
+            style={{ alignItems: "center", alignContent: "center" }}
+            sm={12}
+            md={12}
+          >
+            <h1
+              className="titlefont"
+              style={{
+				fontSize: "3rem",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                alignContent: "center",
+              }}
+            >
+              {" "}
+              {t("portfolio.title")}
+            </h1>
+            <p
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "regular",
+                color: "gray",
+              }}
+            >
+              {t("portfolio.subtitle")}
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
 }
