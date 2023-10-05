@@ -2,8 +2,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
 import '../../Styles/ButtonStyle.css';
 import '../../components/i18n.js';
-import 'bootstrap/dist/js/bootstrap.js'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import '../modalFrom/modal';
 
 import { Container, Nav, Navbar } from 'react-bootstrap';
@@ -64,19 +62,18 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar className="navbar" expand="md">
+      <Navbar bg="light" expand="xxl" className="mx-5">
         <Container fluid >
-          <Navbar.Brand href="#/"><Logo /> </Navbar.Brand>
+          <Navbar.Brand  className="d-inline-block align-top" href="#/"><Logo /> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className="justify-content-end">
             <Nav
-              className="intensNav me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              className="left my-2 my-lg-0 px-5"
               navbarScroll
             >
-             <Link className="color margin" to="/">{t('nav_bar_Home')} </Link>
+             <Link className="color margin px-2" to="/">{t('nav_bar_Home')} </Link>
              {/* <Link className="color margin" to="/Preco">{t('nav_bar_Price')} </Link> */}
-             <Link className="color margin" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
+             <Link className="color margin px-2" to="/Portfolio">{t('nav_bar_Portfolio')} </Link>
             </Nav>
 
             <div className='butonsCol'>

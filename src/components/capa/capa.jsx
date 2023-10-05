@@ -52,7 +52,6 @@ export default function Capa() {
             <h1 className="cols-auto h1-md titlefont">
               {t('Info.capaTitle')} <br></br>
               <span id="textdecoration" className='titlefont'>{t('Info.of')}{' '}</span><br></br>
-              <span id="textdecoration" className='titlefont'>{t('Info.capaTitlebr')}{' '}</span>
               <span  className='titlefont'>{t('Info.capaTitleDecoration')}</span>
             </h1>
             <p className="cols-auto p-subtitle1 textfont mt-5 ">

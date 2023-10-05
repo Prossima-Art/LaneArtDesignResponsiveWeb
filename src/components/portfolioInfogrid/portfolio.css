@@ -8,11 +8,6 @@
 @media screen and (max-width: 600px) {
   .banner svg {
     display: none;
-    /* flex-direction: center;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto; */
   }
 }
 
