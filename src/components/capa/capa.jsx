@@ -10,10 +10,10 @@ import Dedo from './images-carousel/dedo.svg'
 
 import Flash from './images-carousel/flash.svg'
 import IconPlay from '../../assets/svg/Play.svg'
-import { ModalContato } from '../modalFrom/modal'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { ModalContato } from '../offcanvas/Offcanvas'
 
 
 const icons = [
@@ -60,11 +60,9 @@ export default function Capa() {
 
             <Row className="centralized margemtop">
               <Col sx={4} xs="auto" className="p-0">
-                <ModalContato>
-                  <button className="BtnPrimary contact">
-                    {t('btn.btn_Contact')}
-                  </button>
-                </ModalContato>
+              
+                <ModalContato/>
+                
                 {icons.map((icon) => (
                   <img
                     key={icon.class}

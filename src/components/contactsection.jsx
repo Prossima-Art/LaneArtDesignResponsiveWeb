@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import { ModalContato } from "./offcanvas/Offcanvas";
 
-import { ModalContato } from "./modalFrom/modal";
+
 
 export const Contactsection = () => {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ export const Contactsection = () => {
 
             <Row className="centralized">
               <Col md="auto">
-                <ModalContato>
+                 <ModalContato>
                   <button className="BtnSecundary">
                     {t("btn.btn_Contact")}
                   </button>
